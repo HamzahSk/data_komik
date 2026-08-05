@@ -1,0 +1,68 @@
+name: Scrape Komik (Scheduled by Genre)
+
+on:
+  workflow_dispatch:
+    inputs:
+      genreTarget:
+        description: 'Ketik nama genre (Opsional: kosongkan untuk otomatis run sesuai antrean)'
+        required: false
+        default: ''
+  schedule:
+    # Berjalan otomatis setiap menit ke-0 pada setiap jam (contoh: 01:00, 02:00, 03:00)
+    - cron: '0 * * * *'
+
+jobs:
+  scrape-and-push:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Tentukan Target Genre dan Putar Antrean
+        id: determine-genre
+        run: |
+          # Mengecek apakah ini dijalankan manual pakai input atau otomatis (cron)
+          MANUAL_GENRE="${{ github.event.inputs.genreTarget }}"
+          
+          if [[ -n "$MANUAL_GENRE" ]]; then
+            echo "Menggunakan genre dari input manual: $MANUAL_GENRE"
+            echo "TARGET_GENRE=$MANUAL_GENRE" >> $GITHUB_ENV
+          else
+            # Ambil genre pertama (index 0) dari file genrelist.json
+            NEXT_GENRE=$(jq -r '.[0]' genrelist.json)
+            echo "Mengambil genre antrean teratas: $NEXT_GENRE"
+            echo "TARGET_GENRE=$NEXT_GENRE" >> $GITHUB_ENV
+            
+            # Putar urutan list: pindahkan elemen pertama ke paling akhir
+            # Lalu simpan perubahannya kembali ke genrelist.json
+            jq '.[1:] + [.[0]]' genrelist.json > tmp.json && mv tmp.json genrelist.json
+            echo "Urutan genrelist.json berhasil diputar."
+          fi
+
+      - name: Run Scraper
+        # Variabel TARGET_GENRE akan dibaca oleh process.env.TARGET_GENRE di index.js
+        env:
+          TARGET_GENRE: ${{ env.TARGET_GENRE }}
+        run: node index.js
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Pesan commit otomatis mencantumkan nama genre yang baru diproses
+          commit_message: "Auto-update data genre: ${{ env.TARGET_GENRE }} & rotasi list"
+          branch: main # Pastikan nama branch-mu benar (main atau master)
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          
