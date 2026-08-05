@@ -49,10 +49,13 @@ async function scrapeGenre(genre) {
                     headers: XHR_HEADERS
                 });
                 
-                const data = response.data;
-                // Sesuai Kotlin: Mengekstrak html dan lastId dari JSON respons
-                htmlToParse = data.html || '';
-                lastId = data.lastId;
+                // Pengecekan aman: Memastikan kita memproses JSON jika responsnya objek
+                if (typeof response.data === 'object') {
+                    htmlToParse = response.data.html || '';
+                    lastId = response.data.lastId;
+                } else {
+                    htmlToParse = response.data || '';
+                }
             }
 
             // Sesuai Kotlin: Berhenti jika lastId bernilai "0" atau hilang
@@ -65,27 +68,41 @@ async function scrapeGenre(genre) {
 
             const $ = cheerio.load(htmlToParse);
             
-            // 2. SELECTOR DIPERBAIKI menyesuaikan mangaFromGenreCard di Kotlin
-            const cards = $('#genre-list .bsx a[title], #komik-list a.komik-card, a.komik-card');
+            // 2. SELECTOR DIPERLUAS (Fallback)
+            // Menghapus keharusan harus ada di dalam #genre-list atau #komik-list
+            const cards = $('.bsx a[title], a.komik-card');
             
             let jumlahSebelumnya = results.length;
 
             cards.each((i, el) => {
                 let url = $(el).attr('href');
-                if (url && !url.startsWith('http')) url = `${BASE_URL}${url}`;
+                if (url && !url.startsWith('http')) {
+                    url = `${BASE_URL}${url}`;
+                }
 
-                // Ambil judul dari atribut title atau dari dalam elemen
-                let title = $(el).attr('title')?.trim() || $(el).find('.komik-info h3').text().trim();
+                // FALLBACK JUDUL BERTINGKAT: 
+                // 1. Coba ambil dari atribut 'title' di tag <a>
+                // 2. Kalau gagal, coba cari class '.tt' (berdasarkan JSON)
+                // 3. Kalau gagal lagi, coba cari class '.komik-info h3'
+                let title = $(el).attr('title')?.trim() 
+                         || $(el).find('.tt').text().trim() 
+                         || $(el).find('.komik-info h3').text().trim();
                 
-                // Ambil gambar cover
-                let thumb = $(el).find('img').attr('abs:src') || $(el).find('img').attr('src');
+                // FALLBACK GAMBAR:
+                let thumb = $(el).find('img').attr('abs:src') 
+                         || $(el).find('img').attr('src');
 
                 if (title && url && !seenUrls.has(url)) {
                     seenUrls.add(url);
-                    results.push({ title, url, thumbnail_url: thumb || null });
+                    results.push({ 
+                        title, 
+                        url, 
+                        thumbnail_url: thumb || null 
+                    });
                 }
             });
 
+            // Deteksi pencegah infinite loop jika halaman membalikkan HTML kosong tapi nggak ngasih last_id = 0
             if (results.length === jumlahSebelumnya && htmlToParse.trim() !== '') {
                 console.log(`⚠️ Halaman terdeteksi tidak menghasilkan komik baru. Kemungkinan limit server. Menghentikan scrape.`);
                 hasNextPage = false;
@@ -93,7 +110,7 @@ async function scrapeGenre(genre) {
                 console.log(`   [${genre}] Berhasil memproses ${results.length} judul (Last ID: ${lastId || 'TAMAT'})`);
             }
 
-            if (hasNextPage) await delay(3000); 
+            if (hasNextPage) await delay(3000); // Jeda 3 detik
 
         } catch (error) {
             console.error(`❌ Error pada genre ${genre} (Halaman ${page}):`, error.message);
@@ -101,6 +118,7 @@ async function scrapeGenre(genre) {
         }
     }
 
+    // Pastikan folder genre dibuat sebelum menulis file
     await fs.mkdir('genre', { recursive: true });
     
     const fileName = `genre_${genre.toLowerCase().replace(/\s/g, '_')}.json`;
@@ -108,6 +126,7 @@ async function scrapeGenre(genre) {
     console.log(`✅ Selesai! Data genre ${genre} tersimpan di genre/${fileName} (Total: ${results.length} judul)`);
 }
 
+// Eksekusi utama yang dipanggil oleh GitHub Actions
 if (!targetGenre) {
     console.error("❌ Target genre tidak ditemukan! Pastikan dijalankan via GitHub Actions dengan parameter genre.");
     process.exit(1);
