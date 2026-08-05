@@ -3,17 +3,29 @@ import * as cheerio from 'cheerio';
 import fs from 'fs/promises';
 
 const BASE_URL = 'https://mirrorinkomik.my.id';
-
-// Membaca genre yang dikirim dari GitHub Actions
 const targetGenre = process.env.TARGET_GENRE;
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// 1. HEADER WAJIB: Menyamar sebagai Browser Chrome Asli & menyertakan Referer
+const DEFAULT_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+    'Referer': `${BASE_URL}/`,
+    'Accept-Language': 'en-US,en;q=0.9,id;q=0.8'
+};
+
+// Header khusus untuk Load More (menggabungkan Default + XHR)
+const XHR_HEADERS = {
+    ...DEFAULT_HEADERS,
+    'X-Requested-With': 'XMLHttpRequest'
+};
 
 async function scrapeGenre(genre) {
     let page = 1;
     let lastId = null;
     let hasNextPage = true;
     const results = [];
+    const seenUrls = new Set(); // Mencegah data ganda (duplikat) masuk
 
     console.log(`\n🚀 Memulai PULL LENGKAP untuk genre: ${genre}...`);
 
@@ -22,21 +34,28 @@ async function scrapeGenre(genre) {
             let htmlToParse = '';
 
             if (page === 1) {
-                const response = await axios.get(`${BASE_URL}/Genre/${genre}`);
+                // Request Halaman 1 pakai DEFAULT_HEADERS
+                const response = await axios.get(`${BASE_URL}/Genre/${genre}`, {
+                    headers: DEFAULT_HEADERS
+                });
                 htmlToParse = response.data;
                 const $ = cheerio.load(htmlToParse);
                 lastId = $('#load-more').attr('data-last-id');
+                
             } else {
+                // Request Halaman 2 dst pakai XHR_HEADERS
                 const response = await axios.get(`${BASE_URL}/loadmore-type`, {
                     params: { type: genre, last_id: lastId },
-                    headers: { 'X-Requested-With': 'XMLHttpRequest' }
+                    headers: XHR_HEADERS
                 });
                 
                 const data = response.data;
+                // Sesuai Kotlin: Mengekstrak html dan lastId dari JSON respons
                 htmlToParse = data.html || '';
                 lastId = data.lastId;
             }
 
+            // Sesuai Kotlin: Berhenti jika lastId bernilai "0" atau hilang
             if (lastId === '0' || !lastId) {
                 lastId = null;
                 hasNextPage = false;
@@ -45,24 +64,28 @@ async function scrapeGenre(genre) {
             }
 
             const $ = cheerio.load(htmlToParse);
-            const cards = $('a.komik-card, #genre-list .bsx a[title]');
             
-            // Catat jumlah sebelum di push untuk ngecek halaman kosong/diblokir
+            // 2. SELECTOR DIPERBAIKI menyesuaikan mangaFromGenreCard di Kotlin
+            const cards = $('#genre-list .bsx a[title], #komik-list a.komik-card, a.komik-card');
+            
             let jumlahSebelumnya = results.length;
 
             cards.each((i, el) => {
                 let url = $(el).attr('href');
                 if (url && !url.startsWith('http')) url = `${BASE_URL}${url}`;
 
-                let title = $(el).find('.komik-info h3').text().trim() || $(el).attr('title')?.trim();
-                let thumb = $(el).find('.komik-cover img').attr('src') || $(el).find('img').attr('src');
+                // Ambil judul dari atribut title atau dari dalam elemen
+                let title = $(el).attr('title')?.trim() || $(el).find('.komik-info h3').text().trim();
+                
+                // Ambil gambar cover
+                let thumb = $(el).find('img').attr('abs:src') || $(el).find('img').attr('src');
 
-                if (title && url) {
+                if (title && url && !seenUrls.has(url)) {
+                    seenUrls.add(url);
                     results.push({ title, url, thumbnail_url: thumb || null });
                 }
             });
 
-            // Deteksi jika server mulai ngaco/kosong
             if (results.length === jumlahSebelumnya && htmlToParse.trim() !== '') {
                 console.log(`⚠️ Halaman terdeteksi tidak menghasilkan komik baru. Kemungkinan limit server. Menghentikan scrape.`);
                 hasNextPage = false;
@@ -70,7 +93,6 @@ async function scrapeGenre(genre) {
                 console.log(`   [${genre}] Berhasil memproses ${results.length} judul (Last ID: ${lastId || 'TAMAT'})`);
             }
 
-            // Jeda dinaikkan jadi 3 detik biar lebih aman dari blokir
             if (hasNextPage) await delay(3000); 
 
         } catch (error) {
@@ -79,7 +101,6 @@ async function scrapeGenre(genre) {
         }
     }
 
-    // Buat folder 'genre' jika belum ada, lalu simpan file di dalamnya
     await fs.mkdir('genre', { recursive: true });
     
     const fileName = `genre_${genre.toLowerCase().replace(/\s/g, '_')}.json`;
@@ -87,7 +108,6 @@ async function scrapeGenre(genre) {
     console.log(`✅ Selesai! Data genre ${genre} tersimpan di genre/${fileName} (Total: ${results.length} judul)`);
 }
 
-// Eksekusi utama
 if (!targetGenre) {
     console.error("❌ Target genre tidak ditemukan! Pastikan dijalankan via GitHub Actions dengan parameter genre.");
     process.exit(1);
