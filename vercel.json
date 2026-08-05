@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/search",
+      "destination": "/api/search"
+    }
+  ],
+  "functions": {
+    "api/*.js": {
+      "includeFiles": "genre/**"
+    }
+  }
+}
