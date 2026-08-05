@@ -1,0 +1,47 @@
+name: Scrape Komik Genres
+
+# Mengatur kapan workflow ini berjalan
+on:
+  workflow_dispatch: # Mengizinkan kamu menekan tombol "Run workflow" secara manual di GitHub
+  schedule:
+    # Berjalan otomatis setiap hari Minggu jam 00:00 UTC (sekitar jam 07:00 WIB)
+    # Sesuaikan atau hapus bagian schedule ini jika hanya ingin run manual
+    - cron: '0 0 * * 0' 
+
+jobs:
+  scrape-and-push:
+    runs-on: ubuntu-latest
+    
+    # Izin (permissions) ini wajib agar bot GitHub bisa melakukan push ke repo kamu
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Menggunakan Node.js versi 20 (LTS stabil)
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Scraper
+        run: node index.js
+
+      - name: Siapkan Folder dan Pindahkan JSON
+        run: |
+          mkdir -p genre
+          # Memindahkan semua file yang berawalan "genre_" dan berakhiran ".json" ke folder genre
+          # Tambahan "|| true" agar workflow tidak berhenti (error) jika kebetulan tidak ada file yang ter-generate
+          mv genre_*.json genre/ || true
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update data genre komik"
+          branch: main # PENTING: Ganti menjadi 'master' jika default branch kamu bernama master
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
