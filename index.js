@@ -5,6 +5,7 @@ import fs from 'fs/promises';
 const BASE_URL = 'https://mirrorinkomik.my.id';
 const targetGenre = process.env.TARGET_GENRE;
 
+// Fungsi untuk membuat jeda/delay
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // 1. HEADER WAJIB: Menyamar sebagai Browser Chrome Asli & menyertakan Referer
@@ -20,6 +21,28 @@ const XHR_HEADERS = {
     'X-Requested-With': 'XMLHttpRequest'
 };
 
+// ==========================================
+// FUNGSI AUTO-RETRY UNTUK MENGATASI ERROR
+// ==========================================
+async function fetchWithRetry(url, options, maxRetries = 3) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            // Tambahkan timeout 15 detik agar tidak menggantung selamanya (socket hang up)
+            const finalOptions = { ...options, timeout: 15000 };
+            return await axios.get(url, finalOptions);
+        } catch (error) {
+            console.log(`   ⏳ [Peringatan] Request gagal (${error.message}). Percobaan ${attempt}/${maxRetries}...`);
+            
+            if (attempt === maxRetries) {
+                throw error; // Lempar error jika sudah mentok batas maksimal
+            }
+            
+            // Jeda 3 detik sebelum mencoba lagi (sesuai permintaanmu)
+            await delay(3000);
+        }
+    }
+}
+
 async function scrapeGenre(genre) {
     let page = 1;
     let lastId = null;
@@ -34,8 +57,8 @@ async function scrapeGenre(genre) {
             let htmlToParse = '';
 
             if (page === 1) {
-                // Request Halaman 1 pakai DEFAULT_HEADERS
-                const response = await axios.get(`${BASE_URL}/Genre/${genre}`, {
+                // Gunakan fetchWithRetry alih-alih axios.get langsung
+                const response = await fetchWithRetry(`${BASE_URL}/Genre/${genre}`, {
                     headers: DEFAULT_HEADERS
                 });
                 htmlToParse = response.data;
@@ -43,8 +66,8 @@ async function scrapeGenre(genre) {
                 lastId = $('#load-more').attr('data-last-id');
                 
             } else {
-                // Request Halaman 2 dst pakai XHR_HEADERS
-                const response = await axios.get(`${BASE_URL}/loadmore-type`, {
+                // Gunakan fetchWithRetry untuk Load More
+                const response = await fetchWithRetry(`${BASE_URL}/loadmore-type`, {
                     params: { type: genre, last_id: lastId },
                     headers: XHR_HEADERS
                 });
@@ -58,7 +81,7 @@ async function scrapeGenre(genre) {
                 }
             }
 
-            // Sesuai Kotlin: Berhenti jika lastId bernilai "0" atau hilang
+            // Berhenti jika lastId bernilai "0" atau hilang
             if (lastId === '0' || !lastId) {
                 lastId = null;
                 hasNextPage = false;
@@ -68,8 +91,7 @@ async function scrapeGenre(genre) {
 
             const $ = cheerio.load(htmlToParse);
             
-            // 2. SELECTOR DIPERLUAS (Fallback)
-            // Menghapus keharusan harus ada di dalam #genre-list atau #komik-list
+            // SELECTOR DIPERLUAS (Fallback)
             const cards = $('.bsx a[title], a.komik-card');
             
             let jumlahSebelumnya = results.length;
@@ -80,15 +102,12 @@ async function scrapeGenre(genre) {
                     url = `${BASE_URL}${url}`;
                 }
 
-                // FALLBACK JUDUL BERTINGKAT: 
-                // 1. Coba ambil dari atribut 'title' di tag <a>
-                // 2. Kalau gagal, coba cari class '.tt' (berdasarkan JSON)
-                // 3. Kalau gagal lagi, coba cari class '.komik-info h3'
+                // FALLBACK JUDUL BERTINGKAT
                 let title = $(el).attr('title')?.trim() 
                          || $(el).find('.tt').text().trim() 
                          || $(el).find('.komik-info h3').text().trim();
                 
-                // FALLBACK GAMBAR:
+                // FALLBACK GAMBAR
                 let thumb = $(el).find('img').attr('abs:src') 
                          || $(el).find('img').attr('src');
 
@@ -102,7 +121,7 @@ async function scrapeGenre(genre) {
                 }
             });
 
-            // Deteksi pencegah infinite loop jika halaman membalikkan HTML kosong tapi nggak ngasih last_id = 0
+            // Deteksi pencegah infinite loop jika halaman membalikkan HTML kosong
             if (results.length === jumlahSebelumnya && htmlToParse.trim() !== '') {
                 console.log(`⚠️ Halaman terdeteksi tidak menghasilkan komik baru. Kemungkinan limit server. Menghentikan scrape.`);
                 hasNextPage = false;
@@ -110,7 +129,8 @@ async function scrapeGenre(genre) {
                 console.log(`   [${genre}] Berhasil memproses ${results.length} judul (Last ID: ${lastId || 'TAMAT'})`);
             }
 
-            if (hasNextPage) await delay(3000); // Jeda 3 detik
+            // Jeda reguler antar halaman
+            if (hasNextPage) await delay(3000); 
 
         } catch (error) {
             console.error(`❌ Error pada genre ${genre} (Halaman ${page}):`, error.message);
