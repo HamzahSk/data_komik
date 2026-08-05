@@ -4,15 +4,9 @@ import fs from 'fs/promises';
 
 const BASE_URL = 'https://mirrorinkomik.my.id';
 
-// Mengambil list genre dari array yang ada di file Kotlin kamu
-const GENRES = [
-    "Action", "Adventure", "Comedy", "Demons", "Drama", "Ecchi", 
-    "Fantasy", "Harem", "Historical", "Isekai", "Magic", "Martial Art", 
-    "Military", "Reincarnation", "Romance", "School", "Seinen", 
-    "Shoujo", "Shounen", "Slice of Life", "Supernatural", "Webtoons", "Yaoi"
-];
+// Membaca genre yang dikirim dari GitHub Actions
+const targetGenre = process.env.TARGET_GENRE;
 
-// Fungsi untuk menjeda eksekusi (menghindari rate-limit/blokir IP)
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function scrapeGenre(genre) {
@@ -21,39 +15,28 @@ async function scrapeGenre(genre) {
     let hasNextPage = true;
     const results = [];
 
-    console.log(`\n🚀 Memulai scraping genre: ${genre}...`);
+    console.log(`\n🚀 Memulai PULL LENGKAP untuk genre: ${genre}...`);
 
     while (hasNextPage) {
         try {
             let htmlToParse = '';
 
             if (page === 1) {
-                // Request Halaman Pertama
                 const response = await axios.get(`${BASE_URL}/Genre/${genre}`);
                 htmlToParse = response.data;
-                
                 const $ = cheerio.load(htmlToParse);
                 lastId = $('#load-more').attr('data-last-id');
-                
             } else {
-                // Request Halaman Kedua dst (Load More API)
                 const response = await axios.get(`${BASE_URL}/loadmore-type`, {
-                    params: {
-                        type: genre,
-                        last_id: lastId
-                    },
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest'
-                    }
+                    params: { type: genre, last_id: lastId },
+                    headers: { 'X-Requested-With': 'XMLHttpRequest' }
                 });
-
-                // Di Kotlin dibilang responnya JSON berisi { html, lastId, lastScore }
+                
                 const data = response.data;
                 htmlToParse = data.html || '';
                 lastId = data.lastId;
             }
 
-            // Mencegah error jika lastId nilainya '0' (berarti sudah mentok)
             if (lastId === '0' || !lastId) {
                 lastId = null;
                 hasNextPage = false;
@@ -61,64 +44,53 @@ async function scrapeGenre(genre) {
                 page++;
             }
 
-            // Parsing HTML dengan Cheerio
             const $ = cheerio.load(htmlToParse);
-            
-            // Selector ini mengadopsi fungsi mangaFromKomikCard & mangaFromGenreCard di Kotlin
             const cards = $('a.komik-card, #genre-list .bsx a[title]');
+            
+            // Catat jumlah sebelum di push untuk ngecek halaman kosong/diblokir
+            let jumlahSebelumnya = results.length;
 
             cards.each((i, el) => {
                 let url = $(el).attr('href');
-                if (url && !url.startsWith('http')) {
-                    url = `${BASE_URL}${url}`;
-                }
+                if (url && !url.startsWith('http')) url = `${BASE_URL}${url}`;
 
-                // Ambil judul
-                let title = $(el).find('.komik-info h3').text().trim();
-                if (!title) title = $(el).attr('title')?.trim();
-
-                // Ambil gambar
-                let thumb = $(el).find('.komik-cover img').attr('src');
-                if (!thumb) thumb = $(el).find('img').attr('src');
+                let title = $(el).find('.komik-info h3').text().trim() || $(el).attr('title')?.trim();
+                let thumb = $(el).find('.komik-cover img').attr('src') || $(el).find('img').attr('src');
 
                 if (title && url) {
-                    results.push({
-                        title,
-                        url,
-                        thumbnail_url: thumb || null
-                    });
+                    results.push({ title, url, thumbnail_url: thumb || null });
                 }
             });
 
-            console.log(`   [${genre}] Berhasil memproses ${results.length} judul sejauh ini (Last ID: ${lastId || 'TAMAT'})`);
+            // Deteksi jika server mulai ngaco/kosong
+            if (results.length === jumlahSebelumnya && htmlToParse.trim() !== '') {
+                console.log(`⚠️ Halaman terdeteksi tidak menghasilkan komik baru. Kemungkinan limit server. Menghentikan scrape.`);
+                hasNextPage = false;
+            } else {
+                console.log(`   [${genre}] Berhasil memproses ${results.length} judul (Last ID: ${lastId || 'TAMAT'})`);
+            }
 
-            // Jeda 2 detik antar request halaman supaya server gak keberatan
-            if (hasNextPage) await delay(2000); 
+            // Jeda dinaikkan jadi 3 detik biar lebih aman dari blokir
+            if (hasNextPage) await delay(3000); 
 
         } catch (error) {
             console.error(`❌ Error pada genre ${genre} (Halaman ${page}):`, error.message);
-            hasNextPage = false; // Berhenti nge-scrape genre ini kalau ada error beruntun
+            hasNextPage = false; 
         }
     }
 
-    // Simpan ke file JSON
+    // Buat folder 'genre' jika belum ada, lalu simpan file di dalamnya
+    await fs.mkdir('genre', { recursive: true });
+    
     const fileName = `genre_${genre.toLowerCase().replace(/\s/g, '_')}.json`;
-    await fs.writeFile(fileName, JSON.stringify(results, null, 2));
-    console.log(`✅ Selesai! Data genre ${genre} tersimpan di ${fileName} (Total: ${results.length} judul)`);
+    await fs.writeFile(`genre/${fileName}`, JSON.stringify(results, null, 2));
+    console.log(`✅ Selesai! Data genre ${genre} tersimpan di genre/${fileName} (Total: ${results.length} judul)`);
 }
 
-async function main() {
-    console.log("Memulai proses scraping semua genre...");
-    
-    // Looping genre satu per satu secara berurutan
-    // JANGAN gunakan Promise.all() di sini agar server web komik tidak down ditembak banyak request sekaligus
-    for (const genre of GENRES) {
-        await scrapeGenre(genre);
-        // Jeda 5 detik tiap ganti genre
-        await delay(5000);
-    }
-    
-    console.log("\n🎉 SEMUA PROSES SELESAI!");
+// Eksekusi utama
+if (!targetGenre) {
+    console.error("❌ Target genre tidak ditemukan! Pastikan dijalankan via GitHub Actions dengan parameter genre.");
+    process.exit(1);
+} else {
+    scrapeGenre(targetGenre);
 }
-
-main();
