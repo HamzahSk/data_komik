@@ -8,8 +8,8 @@ on:
         required: false
         default: ''
   schedule:
-    # Berjalan otomatis setiap menit ke-0 pada setiap jam (contoh: 01:00, 02:00, 03:00)
-    - cron: '0 * * * *'
+    # Berjalan otomatis 2 kali setiap jam (pada menit ke-21 dan menit ke-47)
+    - cron: '21,47 * * * *'
 
 jobs:
   scrape-and-push:
