@@ -5,31 +5,56 @@ import fs from 'fs/promises';
 const BASE_URL = 'https://mirrorinkomik.my.id';
 const targetGenre = process.env.TARGET_GENRE;
 
-// Ambil username & password dari Environment Variables (GitHub Secrets)
 const USERNAME = "rocckyroo";
 const PASSWORD = "lgDsFOZtGcDf11Ol";
 
-// Variabel global untuk menyimpan cookie (ci_session)
-let globalCookie = ''; 
+// ==========================================
+// SISTEM COOKIE JAR MINI (Meniru Kotlin OkHttp)
+// ==========================================
+// Objek untuk menampung semua cookie (key: value)
+const cookieJar = {};
 
-// Fungsi untuk membuat jeda/delay
+// Fungsi untuk mengekstrak dan menyimpan/memperbarui cookie dari header 'set-cookie'
+function updateCookies(setCookieArray) {
+    if (!setCookieArray || !Array.isArray(setCookieArray)) return;
+    
+    setCookieArray.forEach(cookieStr => {
+        // Ambil bagian utama sebelum tanda ';' (misal: "ci_session=abcd123")
+        const mainPart = cookieStr.split(';')[0];
+        const delimiterIndex = mainPart.indexOf('=');
+        if (delimiterIndex !== -1) {
+            const key = mainPart.substring(0, delimiterIndex).trim();
+            const value = mainPart.substring(delimiterIndex + 1).trim();
+            cookieJar[key] = value;
+        }
+    });
+}
+
+// Fungsi untuk merakit kembali semua cookie menjadi string untuk header HTTP
+function getCookieString() {
+    return Object.entries(cookieJar)
+        .map(([key, value]) => `${key}=${value}`)
+        .join('; ');
+}
+
+// ==========================================
+// HEADERS
+// ==========================================
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// 1. HEADER WAJIB: Menyamar sebagai Browser Chrome Asli & menyertakan Referer
 const DEFAULT_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
     'Referer': `${BASE_URL}/`,
     'Accept-Language': 'en-US,en;q=0.9,id;q=0.8'
 };
 
-// Header khusus untuk Load More (menggabungkan Default + XHR)
 const XHR_HEADERS = {
     ...DEFAULT_HEADERS,
     'X-Requested-With': 'XMLHttpRequest'
 };
 
 // ==========================================
-// FUNGSI LOGIN UNTUK MENGAMBIL COOKIE
+// FUNGSI LOGIN
 // ==========================================
 async function loginSite() {
     if (!USERNAME || !PASSWORD) {
@@ -39,14 +64,13 @@ async function loginSite() {
 
     console.log("🔐 Memulai proses login untuk mengambil cookie...");
     try {
-        // Langkah 1: Kunjungi halaman login untuk ambil CSRF Token & Cookie Awal
-        const getResponse = await axios.get(`${BASE_URL}/login`, { headers: DEFAULT_HEADERS });
+        // Langkah 1: Kunjungi halaman login (GET)
+        const getResponse = await axios.get(`${BASE_URL}/login`, { 
+            headers: DEFAULT_HEADERS 
+        });
         
-        // Simpan cookie awal (biasanya berisi ci_session kosongan)
-        const initialCookies = getResponse.headers['set-cookie'];
-        if (initialCookies) {
-            globalCookie = initialCookies.map(c => c.split(';')[0]).join('; ');
-        }
+        // Simpan semua cookie awal yang diberikan server
+        updateCookies(getResponse.headers['set-cookie']);
 
         const $ = cheerio.load(getResponse.data);
         const csrfToken = $('input[name="csrf_test_name"]').val();
@@ -55,7 +79,7 @@ async function loginSite() {
             throw new Error("CSRF token tidak ditemukan di halaman login.");
         }
 
-        // Langkah 2: Kirim data login beserta CSRF token
+        // Langkah 2: Kirim form login (POST)
         const formData = new URLSearchParams();
         formData.append('csrf_test_name', csrfToken);
         formData.append('login', USERNAME);
@@ -65,37 +89,43 @@ async function loginSite() {
             headers: {
                 ...DEFAULT_HEADERS,
                 'Content-Type': 'application/x-www-form-urlencoded',
-                'Cookie': globalCookie
+                // Masukkan cookie dari GET request sebelumnya
+                'Cookie': getCookieString(), 
+                // Tambahkan Origin dan pastikan Referer mengarah ke halaman login
+                'Origin': BASE_URL,
+                'Referer': `${BASE_URL}/login`
             },
-            // axios secara otomatis mengikuti redirect (302). 
-            // Kalau redirect berhasil ke halaman utama, cookie baru akan ada di response.
+            // PENTING: Jangan ikuti redirect otomatis secara penuh dulu, 
+            // kita harus tangkap cookie saat status 302 (Redirect Sukses Login)
+            maxRedirects: 0, 
+            validateStatus: function (status) {
+                // Anggap status 302 (Redirect) sebagai sukses karena itu tanda login berhasil
+                return status >= 200 && status < 400; 
+            }
         });
 
-        // Langkah 3: Perbarui dengan Cookie asli setelah berhasil login
-        // Jika web me-redirect saat sukses, cookie mungkin ada di request object (tergantung versi axios).
-        // Tapi kita coba ambil dari header set-cookie jika ada.
-        const finalCookies = postResponse.headers['set-cookie'] || postResponse.request?.res?.headers['set-cookie'];
-        if (finalCookies) {
-            globalCookie = finalCookies.map(c => c.split(';')[0]).join('; ');
-        }
+        // Simpan cookie terbaru (biasanya ci_session yang sudah terautentikasi ada di sini)
+        updateCookies(postResponse.headers['set-cookie']);
 
-        console.log("✅ Login berhasil! Cookie (ci_session) sudah tersimpan.");
-        await delay(2000); // Jeda bentar biar server gak kaget
+        console.log("✅ Login berhasil! Cookie lengkap sudah tersimpan.");
+        // console.log("🍪 Current Cookies:", getCookieString()); // Buka ini kalau mau ngecek isi cookienya
+
+        await delay(2000); 
     } catch (error) {
         console.error("❌ Gagal login:", error.message);
-        // Tergantung kebutuhanmu, bisa exit(1) kalau login wajib, atau lanjut tanpa login.
         process.exit(1); 
     }
 }
 
 // ==========================================
-// FUNGSI AUTO-RETRY UNTUK MENGATASI ERROR
+// FUNGSI AUTO-RETRY
 // ==========================================
-async function fetchWithRetry(url, options, maxRetries = 3) {
-    // Suntikkan cookie ke dalam headers setiap kali request jika cookie sudah ada
+async function fetchWithRetry(url, options = {}, maxRetries = 3) {
+    // Selalu sisipkan cookie terbaru ke setiap request
     const finalHeaders = { ...options.headers };
-    if (globalCookie) {
-        finalHeaders['Cookie'] = globalCookie;
+    const currentCookies = getCookieString();
+    if (currentCookies) {
+        finalHeaders['Cookie'] = currentCookies;
     }
 
     const finalOptions = { ...options, headers: finalHeaders, timeout: 15000 };
@@ -105,22 +135,21 @@ async function fetchWithRetry(url, options, maxRetries = 3) {
             return await axios.get(url, finalOptions);
         } catch (error) {
             console.log(`   ⏳ [Peringatan] Request gagal (${error.message}). Percobaan ${attempt}/${maxRetries}...`);
-            
-            if (attempt === maxRetries) {
-                throw error; // Lempar error jika sudah mentok batas maksimal
-            }
-            
+            if (attempt === maxRetries) throw error;
             await delay(3000);
         }
     }
 }
 
+// ==========================================
+// FUNGSI SCRAPE GENRE
+// ==========================================
 async function scrapeGenre(genre) {
     let page = 1;
     let lastId = null;
     let hasNextPage = true;
     const results = [];
-    const seenUrls = new Set(); // Mencegah data ganda (duplikat) masuk
+    const seenUrls = new Set();
 
     console.log(`\n🚀 Memulai PULL LENGKAP untuk genre: ${genre}...`);
 
@@ -129,21 +158,24 @@ async function scrapeGenre(genre) {
             let htmlToParse = '';
 
             if (page === 1) {
-                // Pastikan huruf kecil semua sesuai web servernya!
                 const safeGenre = genre.toLowerCase().replace(/\s/g, '%20');
                 const response = await fetchWithRetry(`${BASE_URL}/genre/${safeGenre}`, {
                     headers: DEFAULT_HEADERS
                 });
+                // Update cookie lagi siapa tahu server me-refresh session
+                updateCookies(response.headers['set-cookie']);
+                
                 htmlToParse = response.data;
                 const $ = cheerio.load(htmlToParse);
                 lastId = $('#load-more').attr('data-last-id');
-                
             } else {
                 const response = await fetchWithRetry(`${BASE_URL}/loadmore-type`, {
                     params: { type: genre, last_id: lastId },
                     headers: XHR_HEADERS
                 });
                 
+                updateCookies(response.headers['set-cookie']);
+
                 if (typeof response.data === 'object') {
                     htmlToParse = response.data.html || '';
                     lastId = response.data.lastId;
@@ -165,9 +197,7 @@ async function scrapeGenre(genre) {
 
             cards.each((i, el) => {
                 let url = $(el).attr('href');
-                if (url && !url.startsWith('http')) {
-                    url = `${BASE_URL}${url}`;
-                }
+                if (url && !url.startsWith('http')) url = `${BASE_URL}${url}`;
 
                 let title = $(el).attr('title')?.trim() 
                          || $(el).find('.tt').text().trim() 
@@ -178,11 +208,7 @@ async function scrapeGenre(genre) {
 
                 if (title && url && !seenUrls.has(url)) {
                     seenUrls.add(url);
-                    results.push({ 
-                        title, 
-                        url, 
-                        thumbnail_url: thumb || null 
-                    });
+                    results.push({ title, url, thumbnail_url: thumb || null });
                 }
             });
 
@@ -202,27 +228,21 @@ async function scrapeGenre(genre) {
     }
 
     await fs.mkdir('genre', { recursive: true });
-    
     const fileName = `genre_${genre.toLowerCase().replace(/\s/g, '_')}.json`;
     await fs.writeFile(`genre/${fileName}`, JSON.stringify(results, null, 2));
     console.log(`✅ Selesai! Data genre ${genre} tersimpan di genre/${fileName} (Total: ${results.length} judul)`);
 }
 
 // ==========================================
-// EKSEKUSI UTAMA (Main Flow)
+// EKSEKUSI UTAMA
 // ==========================================
 async function main() {
     if (!targetGenre) {
         console.error("❌ Target genre tidak ditemukan! Pastikan dijalankan via GitHub Actions dengan parameter genre.");
         process.exit(1);
     }
-
-    // 1. Eksekusi Login Dulu
     await loginSite();
-
-    // 2. Kalau login sukses (atau sengaja dilompati), jalankan Scraper-nya
     await scrapeGenre(targetGenre);
 }
 
-// Jalankan program
 main();
