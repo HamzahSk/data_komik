@@ -1,4 +1,4 @@
-name: Scrape Komik (Scheduled by Genre)
+name: Scrape Komik (Cron Job by Genre)
 
 on:
   workflow_dispatch:
@@ -7,9 +7,6 @@ on:
         description: 'Ketik nama genre (Opsional: kosongkan untuk otomatis run sesuai antrean)'
         required: false
         default: ''
-        
-  schedule:
-    - cron: '*/24 * * * *'
 
 jobs:
   scrape-and-push:
