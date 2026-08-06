@@ -442,7 +442,7 @@ abstract class MirrorInKomik :
             
             // MENYARING (FILTER) GAMBAR IKLAN
             val filteredUrls = urls.filterNot { url ->
-                url.contains("pasang-iklan.png") || url.contains("Bookmark-Dulu.webp")
+                url.contains("pasang-iklan.png") || url.contains("pasang-iklan5.png") || url.contains("Bookmark-Dulu.webp")
             }
 
             // Kalau setelah difilter ternyata kosong, berarti chapter beneran belum ada isinya
