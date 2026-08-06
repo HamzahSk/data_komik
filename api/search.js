@@ -50,7 +50,8 @@ export default async function handler(req, res) {
     }
 
     try {
-        const { q = '', filter = '' } = req.query;
+        // Tambahkan default parameter page = 1 dan limit = 25
+        const { q = '', filter = '', page = '1', limit = '25' } = req.query;
         const genreMap = await getAllGenreData();
 
         // Parse filter (contoh input: "Action, Romance" -> ["action", "romance"])
@@ -110,13 +111,36 @@ export default async function handler(req, res) {
             );
         }
 
-        // 4. RESPONSE HASIL
+        // 4. LOGIKA PAGINATION
+        // Pastikan page dan limit adalah angka bulat (integer)
+        const pageNum = parseInt(page, 10) || 1;
+        const limitNum = parseInt(limit, 10) || 25;
+
+        // Hitung index awal dan index akhir untuk memotong array
+        const startIndex = (pageNum - 1) * limitNum;
+        const endIndex = startIndex + limitNum;
+
+        // Ambil data spesifik untuk halaman yang diminta
+        const paginatedResults = finalResults.slice(startIndex, endIndex);
+
+        // Kalkulasi total halaman
+        const totalItems = finalResults.length;
+        const totalPages = Math.ceil(totalItems / limitNum);
+
+        // 5. RESPONSE HASIL
         return res.status(200).json({
             status: 'success',
-            total: finalResults.length,
+            pagination: {
+                total_items: totalItems,
+                total_pages: totalPages,
+                current_page: pageNum,
+                limit: limitNum,
+                has_next_page: pageNum < totalPages,
+                has_prev_page: pageNum > 1
+            },
             query: searchQuery,
             filters: selectedGenres,
-            data: finalResults
+            data: paginatedResults
         });
 
     } catch (error) {
