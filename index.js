@@ -58,7 +58,7 @@ async function scrapeGenre(genre) {
 
             if (page === 1) {
                 // Gunakan fetchWithRetry alih-alih axios.get langsung
-                const response = await fetchWithRetry(`${BASE_URL}/Genre/${genre}`, {
+                const response = await fetchWithRetry(`${BASE_URL}/genre/${genre}`, {
                     headers: DEFAULT_HEADERS
                 });
                 htmlToParse = response.data;
