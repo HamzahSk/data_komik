@@ -1,63 +1,638 @@
 [
   {
+    "title": "APORIA",
+    "url": "https://mirrorinkomik.my.id/manhwa/aporia",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14629_6a834747e68ba.webp"
+  },
+  {
+    "title": "Sentuh Tubuhmu",
+    "url": "https://mirrorinkomik.my.id/manhwa/sentuh-tubuhmu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13409_69ee54979770b.webp"
+  },
+  {
+    "title": "Panduan Pengguna Regresor",
+    "url": "https://mirrorinkomik.my.id/manhwa/panduan-pengguna-regresor",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/3/2268_6675c139703e3.webp"
+  },
+  {
+    "title": "Aku Hanya Membutuhkan Anak Duke",
+    "url": "https://mirrorinkomik.my.id/manhwa/aku-hanya-membutuhkan-anak-duke",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13177_69dc38b526652.webp"
+  },
+  {
+    "title": "Paduan Unik-Pengalaman Sekali Seumur Hidup",
+    "url": "https://mirrorinkomik.my.id/manga/paduan-unikpengalaman-sekali-seumur-hidup",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14628_6a8346ca50f87.webp"
+  },
+  {
+    "title": "Saya akan menerima XX Sebagai Persembahan",
+    "url": "https://mirrorinkomik.my.id/manhwa/saya-akan-menerima-xx-sebagai-persembahan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14627_6a8344478bcf1.webp"
+  },
+  {
+    "title": "Benih Mati",
+    "url": "https://mirrorinkomik.my.id/manhwa/benih-mati",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10937_687458df38dda.webp"
+  },
+  {
+    "title": "Catatan Kunjungan ke Neraka",
+    "url": "https://mirrorinkomik.my.id/manhwa/catatan-kunjungan-ke-neraka",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14682_6a85c7a6522bf.webp"
+  },
+  {
+    "title": "Catatan Kebejatan Gadis Abadi",
+    "url": "https://mirrorinkomik.my.id/manga/catatan-kebejatan-gadis-abadi",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14651_6a847644d4e40.webp"
+  },
+  {
+    "title": "Hubungan Ibu dan Anak",
+    "url": "https://mirrorinkomik.my.id/manga/hubungan-ibu-dan-anak",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14669_6a852e45dd579.webp"
+  },
+  {
+    "title": "Pengalaman Bercinta 2",
+    "url": "https://mirrorinkomik.my.id/manhwa/pengalaman-bercinta-2",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13957_6a229f7ec0743.webp"
+  },
+  {
+    "title": "Mesugao (zaki)",
+    "url": "https://mirrorinkomik.my.id/manga/mesugao-zaki",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14679_6a8556ec5e242.webp"
+  },
+  {
+    "title": "Torokemo (majoccoid)",
+    "url": "https://mirrorinkomik.my.id/manga/torokemo-majoccoid",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14675_6a85557a1b0ff.webp"
+  },
+  {
+    "title": "Kencan Kilat, Seks Kink, Creampie",
+    "url": "https://mirrorinkomik.my.id/manga/kencan-kilat-seks-kink-creampie",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14666_6a851533aef03.webp"
+  },
+  {
+    "title": "Pijat Wanita",
+    "url": "https://mirrorinkomik.my.id/manhwa/pijat-wanita",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13108_69d6f88f399de.webp"
+  },
+  {
+    "title": "Saya Memiliki Penjara Bawah Tanah Apokaliptik",
+    "url": "https://mirrorinkomik.my.id/manhua/saya-memiliki-penjara-bawah-tanah-apokaliptik",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/2/1293_650a855d455f9.webp"
+  },
+  {
+    "title": "Kembalinya Sang Legenda",
+    "url": "https://mirrorinkomik.my.id/manhwa/kembalinya-sang-legenda",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/3/2093_6675c13939f75.webp"
+  },
+  {
+    "title": "Tetanggaku yang Kutu Buku adalah Penguasa Menara Sihir",
+    "url": "https://mirrorinkomik.my.id/manhwa/tetanggaku-yang-kutu-buku-adalah-penguasa-menara-sihir",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14674_6a855174e9ca9.webp"
+  },
+  {
+    "title": "Tidak Ada Tempat Untuk Putri Palsu",
+    "url": "https://mirrorinkomik.my.id/manhwa/tidak-ada-tempat-untuk-putri-palsu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4253_6675c13c06492_xv1.webp"
+  },
+  {
+    "title": "Penyihir Penyembuhan Tidak dapat Bertarung Sendirian",
+    "url": "https://mirrorinkomik.my.id/manga/penyihir-penyembuhan-tidak-dapat-bertarung-sendirian",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/1/120_65053040ea455.webp"
+  },
+  {
+    "title": "Biarawati Budak Seks",
+    "url": "https://mirrorinkomik.my.id/manhwa/biarawati-budak-seks",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14329_6a51f310c934e.webp"
+  },
+  {
+    "title": "Aku Adalah Dewa Pharaoh!",
+    "url": "https://mirrorinkomik.my.id/manga/aku-adalah-dewa-pharaoh",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14678_6a8556978ae94.webp"
+  },
+  {
+    "title": "Tiga Hari Membuahi Istri Saudaraku yang Mantan Model",
+    "url": "https://mirrorinkomik.my.id/manga/tiga-hari-membuahi-istri-saudaraku-yang-mantan-model",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14668_6a8515ec7e5b3.webp"
+  },
+  {
+    "title": "Kendali Keluarga",
+    "url": "https://mirrorinkomik.my.id/manga/kendali-keluarga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14667_6a8515857b298.webp"
+  },
+  {
+    "title": "Menempatkan Gyaru Nakal di Tempatnya",
+    "url": "https://mirrorinkomik.my.id/manga/menempatkan-gyaru-nakal-di-tempatnya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14665_6a851073028a6.webp"
+  },
+  {
+    "title": "Aku adalah Mainan Ibu Tiriku",
+    "url": "https://mirrorinkomik.my.id/manga/aku-adalah-mainan-ibu-tiriku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14664_6a850fda276d9.webp"
+  },
+  {
+    "title": "Jatuh Hati Padanya",
+    "url": "https://mirrorinkomik.my.id/manhwa/jatuh-hati-padanya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14663_6a850b729917c_xv1.webp"
+  },
+  {
+    "title": "Kairaku Izonshou",
+    "url": "https://mirrorinkomik.my.id/manga/kairaku-izonshou",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14662_6a8509acbeacd.webp"
+  },
+  {
+    "title": "Ibu Tetangga",
+    "url": "https://mirrorinkomik.my.id/manga/ibu-tetangga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14661_6a8504ab3fe66.webp"
+  },
+  {
+    "title": "Yoko-san Tengah Malam",
+    "url": "https://mirrorinkomik.my.id/manga/yoko-san-tengah-malam",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14660_6a85042bc3127.webp"
+  },
+  {
+    "title": "Di Toilet Wanita Bersama Bias-ku",
+    "url": "https://mirrorinkomik.my.id/manhua/di-toilet-wanita-bersama-bias-ku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14659_6a850380048d6.webp"
+  },
+  {
+    "title": "Ibuku Adalah Seorang Aktris Porno",
+    "url": "https://mirrorinkomik.my.id/manga/ibuku-adalah-seorang-aktris-porno",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14656_6a84fda3ce679.webp"
+  },
+  {
+    "title": "Pemandangan yang Memikat",
+    "url": "https://mirrorinkomik.my.id/manga/pemandangan-yang-memikat",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14655_6a84fcce40bd8.webp"
+  },
+  {
+    "title": "Diari Kotor",
+    "url": "https://mirrorinkomik.my.id/manga/diari-kotor",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14654_6a84f8bd70559.webp"
+  },
+  {
+    "title": "Frekuensi Kita yang Tidak Sempurna!",
+    "url": "https://mirrorinkomik.my.id/manhwa/frekuensi-kita-yang-tidak-sempurna",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13476_69f6854b3e522.webp"
+  },
+  {
+    "title": "Gongjunimeun Im Jun-Saeng",
+    "url": "https://mirrorinkomik.my.id/manhwa/gongjunimeun-im-jun-saeng",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12066_690ef00a0006a.webp"
+  },
+  {
+    "title": "Penjara Balas Dendam",
+    "url": "https://mirrorinkomik.my.id/manhwa/penjara-balas-dendam",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9026_67ba221b1e4d6.webp"
+  },
+  {
+    "title": "Pencocokan S yang Mendebarkan",
+    "url": "https://mirrorinkomik.my.id/manhwa/pencocokan-s-yang-mendebarkan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14183_6a3bfdbd8570d.webp"
+  },
+  {
+    "title": "Memanjakan Diri Ala Jepang",
+    "url": "https://mirrorinkomik.my.id/manga/memanjakan-diri-ala-jepang",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12911_6969aebb73977.webp"
+  },
+  {
+    "title": "Ayah Mertua Meniduri Mereka Semua",
+    "url": "https://mirrorinkomik.my.id/manhwa/ayah-mertua-meniduri-mereka-semua",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11483_68af632985470.webp"
+  },
+  {
+    "title": "Percayalah! Aku Akan Menawarkanmu Yang Pertama",
+    "url": "https://mirrorinkomik.my.id/manhwa/percayalah-aku-akan-menawarkanmu-yang-pertama",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10978_6878d44b4d5f6.webp"
+  },
+  {
+    "title": "Titik Balik",
+    "url": "https://mirrorinkomik.my.id/manhwa/titik-balik",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5652_6675c13dc1323_xv1.webp"
+  },
+  {
+    "title": "Teman Bicara Kotor",
+    "url": "https://mirrorinkomik.my.id/manhwa/teman-bicara-kotor",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9365_67e0b8743f75e.webp"
+  },
+  {
+    "title": "Pelatihan Dua Rasa",
+    "url": "https://mirrorinkomik.my.id/manhwa/pelatihan-dua-rasa",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14647_6a8471ffb0087.webp"
+  },
+  {
+    "title": "Malam Bulan Purnama",
+    "url": "https://mirrorinkomik.my.id/manhwa/malam-bulan-purnama",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14646_6a847152020d5.webp"
+  },
+  {
+    "title": "Itu Hanya Tip!",
+    "url": "https://mirrorinkomik.my.id/manga/itu-hanya-tip",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14645_6a8470dd48a6c.webp"
+  },
+  {
+    "title": "Berpura-Pura Sudah Menikah",
+    "url": "https://mirrorinkomik.my.id/manhwa/berpura-pura-sudah-menikah",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14644_6a846f7591dab.webp"
+  },
+  {
+    "title": "Orang Asing di Dunia Maya",
+    "url": "https://mirrorinkomik.my.id/manhwa/orang-asing-di-dunia-maya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14630_6a8347deb0b47.webp"
+  },
+  {
+    "title": "Seks! Olahraga",
+    "url": "https://mirrorinkomik.my.id/manhwa/seks-olahraga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14640_6a8458dd0248f.webp"
+  },
+  {
+    "title": "Sampai Dia Menjadi Anggrek",
+    "url": "https://mirrorinkomik.my.id/manhwa/sampai-dia-menjadi-anggrek",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14639_6a84576ac1703.webp"
+  },
+  {
+    "title": "Perjanjian Pinjaman Kehamilan",
+    "url": "https://mirrorinkomik.my.id/manhwa/perjanjian-pinjaman-kehamilan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14638_6a8456a8855ee.webp"
+  },
+  {
+    "title": "Kelas Rahasia",
+    "url": "https://mirrorinkomik.my.id/manhwa/kelas-rahasia",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/3/2183_6675c139555ad.webp"
+  },
+  {
+    "title": "Resep Pai Ceri",
+    "url": "https://mirrorinkomik.my.id/manhwa/resep-pai-ceri",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14442_6a5ec58187fde.webp"
+  },
+  {
+    "title": "Kau Tak Akan Menghancurkanku!",
+    "url": "https://mirrorinkomik.my.id/manhwa/kau-tak-akan-menghancurkanku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11860_68f0eefa13405.webp"
+  },
+  {
+    "title": "Sihir itu Baik, dan Teman Masa Kecilku Sangat Menarik",
+    "url": "https://mirrorinkomik.my.id/manhwa/sihir-itu-baik-dan-teman-masa-kecilku-sangat-menarik",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13700_6a051aee393a7.webp"
+  },
+  {
+    "title": "Ayah Tunggal",
+    "url": "https://mirrorinkomik.my.id/manhua/ayah-tunggal",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14513_6a6c79a46cddf.webp"
+  },
+  {
+    "title": "Aku Menjalani Pernikahan yang Diatur dengan Orang yang Kucintai Secara Sepihak",
+    "url": "https://mirrorinkomik.my.id/manhwa/aku-menjalani-pernikahan-yang-diatur-dengan-orang-yang-kucintai-secara-sepihak",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14516_6a6d3cad3b122.webp"
+  },
+  {
+    "title": "Hong-Cha dan Beom-Ja,",
+    "url": "https://mirrorinkomik.my.id/manhwa/hong-cha-dan-beom-ja",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14528_6a6ff50c8410a.webp"
+  },
+  {
+    "title": "Pacarku Bernama Aly, Sudah Terlatih Sepenuhnya",
+    "url": "https://mirrorinkomik.my.id/manhwa/pacarku-bernama-aly-sudah-terlatih-sepenuhnya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12885_696658c08c85c.webp"
+  },
+  {
+    "title": "Bunga Teratai Mekar di Gunung Tianshan",
+    "url": "https://mirrorinkomik.my.id/manhwa/bunga-teratai-mekar-di-gunung-tianshan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14631_6a83b32cac144.webp"
+  },
+  {
+    "title": "Mata Birumu",
+    "url": "https://mirrorinkomik.my.id/manhwa/mata-birumu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13437_69f1e7e0bf380.webp"
+  },
+  {
+    "title": "Buahi Aku, Snakeboy",
+    "url": "https://mirrorinkomik.my.id/manhwa/buahi-aku-snakeboy",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14619_6a7db36e08c91.webp"
+  },
+  {
+    "title": "Lihatlah Manajer Saya",
+    "url": "https://mirrorinkomik.my.id/manhwa/lihatlah-manajer-saya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13513_69f9dfa026639.webp"
+  },
+  {
+    "title": "Cinta Seekor Naga",
+    "url": "https://mirrorinkomik.my.id/manhwa/cinta-seekor-naga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14337_6a5317eb6add2.webp"
+  },
+  {
+    "title": "Pembalikan Hubungan Sekitar",
+    "url": "https://mirrorinkomik.my.id/manhwa/pembalikan-hubungan-sekitar",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6492_6675c13eda9c1.webp"
+  },
+  {
+    "title": "Nona Soeun",
+    "url": "https://mirrorinkomik.my.id/manhwa/nona-soeun",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7139_66ada6bc4dade.webp"
+  },
+  {
+    "title": "Setelah Lulus, Aku Tidur Dengan Semua Teman Sekelasku",
+    "url": "https://mirrorinkomik.my.id/manhwa/setelah-lulus-aku-tidur-dengan-semua-teman-sekelasku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14403_6a5b473c1cafe.webp"
+  },
+  {
+    "title": "Hidangan Penutup yang Seksi",
+    "url": "https://mirrorinkomik.my.id/manhwa/hidangan-penutup-yang-seksi",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14025_6a2b6b066aa03.webp"
+  },
+  {
+    "title": "Saya Ingin Bekerja Dengan Tenang",
+    "url": "https://mirrorinkomik.my.id/manhwa/saya-ingin-bekerja-dengan-tenang",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13169_69daa2bf81bb9_xv1.webp"
+  },
+  {
+    "title": "Laporan Kinerja (Seks)",
+    "url": "https://mirrorinkomik.my.id/manhwa/laporan-kinerja-seks",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12142_69188ca53a351.webp"
+  },
+  {
+    "title": "Binatang Buas Kecil",
+    "url": "https://mirrorinkomik.my.id/manhwa/binatang-buas-kecil",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11744_68da19158cd09.webp"
+  },
+  {
+    "title": "Tidak Pernah Sekadar Teman",
+    "url": "https://mirrorinkomik.my.id/manhwa/tidak-pernah-sekadar-teman",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14249_6a466730611b6.webp"
+  },
+  {
+    "title": "Cinta Sesat yang Murni",
+    "url": "https://mirrorinkomik.my.id/manhwa/cinta-sesat-yang-murni",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13973_6a25eec920d49.webp"
+  },
+  {
+    "title": "Bar Makanan Ringan Nyonya",
+    "url": "https://mirrorinkomik.my.id/manhwa/bar-makanan-ringan-nyonya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13961_6a23bc62d6485.webp"
+  },
+  {
+    "title": "Saya Menjadi Manajer Keamanan Apartemen",
+    "url": "https://mirrorinkomik.my.id/manhwa/saya-menjadi-manajer-keamanan-apartemen",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11386_68a790cfe78c3.webp"
+  },
+  {
+    "title": "Misi Cinta",
+    "url": "https://mirrorinkomik.my.id/manhwa/misi-cinta",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13154_69da3d0342327.webp"
+  },
+  {
+    "title": "Dongeng yang Kejam",
+    "url": "https://mirrorinkomik.my.id/manhwa/dongeng-yang-kejam",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14612_6a7cc731cfe9c.webp"
+  },
+  {
+    "title": "Anjing Itu Sangat Polos",
+    "url": "https://mirrorinkomik.my.id/manhwa/anjing-itu-sangat-polos",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14473_6a657f858e907.webp"
+  },
+  {
+    "title": "Seorang Pervert yang Hanya Memilih dan Melahap Pervert Lainnya",
+    "url": "https://mirrorinkomik.my.id/manhwa/seorang-pervert-yang-hanya-memilih-dan-melahap-pervert-lainnya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14266_6a495a261dc03.webp"
+  },
+  {
+    "title": "Ji Heejin dan Ji Hyunwoo Bertemu Lagi",
+    "url": "https://mirrorinkomik.my.id/manhwa/ji-heejin-dan-ji-hyunwoo-bertemu-lagi",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11982_690654886ef0d.webp"
+  },
+  {
+    "title": "Fotolah Aku",
+    "url": "https://mirrorinkomik.my.id/manhwa/fotolah-aku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11517_68b6002dc1fa9.webp"
+  },
+  {
+    "title": "Tolong Masukkan Itu Ke Dalam Keranjang",
+    "url": "https://mirrorinkomik.my.id/manhwa/tolong-masukkan-itu-ke-dalam-keranjang",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14620_6a7db53b4f802.webp"
+  },
+  {
+    "title": "Sang Saintess yang Harus Melakukannya demi Bertahan Hidup",
+    "url": "https://mirrorinkomik.my.id/manhwa/sang-saintess-yang-harus-melakukannya-demi-bertahan-hidup",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14614_6a7cc81ea99e0.webp"
+  },
+  {
+    "title": "Kualifikasi Sang Duchess",
+    "url": "https://mirrorinkomik.my.id/manhwa/kualifikasi-sang-duchess",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14583_6a77613d7b03d.webp"
+  },
+  {
+    "title": "Bos Menjadi Terangsang",
+    "url": "https://mirrorinkomik.my.id/manhwa/bos-menjadi-terangsang",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13935_6a1f7c8a989ee.webp"
+  },
+  {
+    "title": "Penyihir Permata",
+    "url": "https://mirrorinkomik.my.id/manhwa/penyihir-permata",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9541_6800bbdf8adae.webp"
+  },
+  {
+    "title": "Ksatria Suci",
+    "url": "https://mirrorinkomik.my.id/manga/ksatria-suci",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13850_6a11f5efb1782.webp"
+  },
+  {
+    "title": "Lagu Musim Panas",
+    "url": "https://mirrorinkomik.my.id/manhwa/lagu-musim-panas",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11475_68af5c689c8a2.webp"
+  },
+  {
+    "title": "Pahlawan Menyelamatkan Dengan Tubuh Mereka",
+    "url": "https://mirrorinkomik.my.id/manhwa/pahlawan-menyelamatkan-dengan-tubuh-mereka",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10815_68687ee7cf2a0.webp"
+  },
+  {
+    "title": "Duke dan Duchess Memiliki Sebuah Rahasia",
+    "url": "https://mirrorinkomik.my.id/manhwa/duke-dan-duchess-memiliki-sebuah-rahasia",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14471_6a657e417dd35.webp"
+  },
+  {
+    "title": "Malam Suci: Suamiku Pasti Seorang Paladin",
+    "url": "https://mirrorinkomik.my.id/manhwa/malam-suci-suamiku-pasti-seorang-paladin",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14277_6a4ac590ade03.webp"
+  },
+  {
+    "title": "Air Mata Di Atas Bunga Layu",
+    "url": "https://mirrorinkomik.my.id/manhwa/air-mata-di-atas-bunga-layu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6994_6688be9f5a8fd.webp"
+  },
+  {
+    "title": "Panduan Strategi untuk Akhir Buruk yang Ceria",
+    "url": "https://mirrorinkomik.my.id/manhwa/panduan-strategi-untuk-akhir-buruk-yang-ceria",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14579_6a7753891bba7.webp"
+  },
+  {
+    "title": "Api Tersembunyi",
+    "url": "https://mirrorinkomik.my.id/manhwa/api-tersembunyi",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14525_6a6feff13854e.webp"
+  },
+  {
+    "title": "Aristokrat Telepati",
+    "url": "https://mirrorinkomik.my.id/manga/aristokrat-telepati",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13165_69da822d20046.webp"
+  },
+  {
+    "title": "Berguling-guling Bersama Putra Mahkota Di Tempat Tidur",
+    "url": "https://mirrorinkomik.my.id/manhwa/berguling-guling-bersama-putra-mahkota-di-tempat-tidur",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14478_6a65836d3cbc0.webp"
+  },
+  {
+    "title": "Menjinakkan Seorang Wanita Pengganggu",
+    "url": "https://mirrorinkomik.my.id/manhwa/menjinakkan-seorang-wanita-pengganggu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8909_67af0788267bb.webp"
+  },
+  {
+    "title": "Kejutan Keluarga",
+    "url": "https://mirrorinkomik.my.id/manhwa/kejutan-keluarga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13709_6a0667df4ad7b.webp"
+  },
+  {
+    "title": "Akan Kuajarkan Bela Diri Padamu",
+    "url": "https://mirrorinkomik.my.id/manhwa/akan-kuajarkan-bela-diri-padamu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12396_692ec9c420b7b.webp"
+  },
+  {
+    "title": "Didiskualifikasi Sebagai Manusia",
+    "url": "https://mirrorinkomik.my.id/manhwa/didiskualifikasi-sebagai-manusia",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14188_6a3c20f338637.webp"
+  },
+  {
+    "title": "Kakak Iparku yang Cantik",
+    "url": "https://mirrorinkomik.my.id/manhwa/kakak-iparku-yang-cantik",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14581_6a775de845269.webp"
+  },
+  {
+    "title": "Cinta:Nol",
+    "url": "https://mirrorinkomik.my.id/manhwa/cintanol",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14251_6a467071576b9.webp"
+  },
+  {
     "title": "Zona Keamanan Antisosial",
     "url": "https://mirrorinkomik.my.id/manhwa/zona-keamanan-antisosial",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13659_6a014460b583e.webp"
   },
   {
-    "title": "Sebuah Permainan Keinginan",
-    "url": "https://mirrorinkomik.my.id/manhwa/sebuah-permainan-keinginan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13110_69d6ff385776c.webp"
+    "title": "Aku Meminumnya, Bukan Suamiku",
+    "url": "https://mirrorinkomik.my.id/manhwa/aku-meminumnya-bukan-suamiku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13315_69e44e3e72965.webp"
   },
   {
-    "title": "Stasiun Absolut",
-    "url": "https://mirrorinkomik.my.id/manhwa/stasiun-absolut",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6342_6675c13ea6ca2.webp"
+    "title": "Penjantan di Ruang Perkembangbiakkan",
+    "url": "https://mirrorinkomik.my.id/manhwa/penjantan-di-ruang-perkembangbiakkan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12857_69630cb97490e.webp"
   },
   {
-    "title": "Rusak dan Terbengkalai",
-    "url": "https://mirrorinkomik.my.id/manhwa/rusak-dan-terbengkalai",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13861_6a1220c145844.webp"
+    "title": "Succubus Ingin Hidup Biasa Saja!",
+    "url": "https://mirrorinkomik.my.id/manhwa/succubus-ingin-hidup-biasa-saja",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14514_6a6d39580f92e.webp"
   },
   {
-    "title": "Keinginan Iblis",
-    "url": "https://mirrorinkomik.my.id/manhwa/keinginan-iblis",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5548_6675c13da2a58.webp"
+    "title": "Harap Isi Ulang Energi Yangmu",
+    "url": "https://mirrorinkomik.my.id/manhwa/harap-isi-ulang-energi-yangmu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14170_6a38a929e3826.webp"
   },
   {
-    "title": "Oh Suamiku",
-    "url": "https://mirrorinkomik.my.id/manhwa/oh-suamiku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14338_6a531848d3102.webp"
+    "title": "Tidak Ada Anjing Militer yang Buruk di Dunia Ini",
+    "url": "https://mirrorinkomik.my.id/manhwa/tidak-ada-anjing-militer-yang-buruk-di-dunia-ini",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13241_69dff80a89e26.webp"
   },
   {
-    "title": "Suami Saya Tidak Menginginkan Kehamilan",
-    "url": "https://mirrorinkomik.my.id/manhwa/suami-saya-tidak-menginginkan-kehamilan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14263_6a48ccbd9326c.webp"
+    "title": "Pasangan Itu Menyembunyikan Selera Mereka",
+    "url": "https://mirrorinkomik.my.id/manhwa/pasangan-itu-menyembunyikan-selera-mereka",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13757_6a0ab16296e9c.webp"
   },
   {
-    "title": "Kehamilan Yang Patuh",
-    "url": "https://mirrorinkomik.my.id/manhwa/kehamilan-yang-patuh",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12685_69535fd694e98.webp"
+    "title": "Kode Budak",
+    "url": "https://mirrorinkomik.my.id/manhwa/kode-budak",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13846_6a1132fcec5d7.webp"
   },
   {
-    "title": "Cinta Pecandu",
-    "url": "https://mirrorinkomik.my.id/manhwa/cinta-pecandu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11653_68cbb6774a391.webp"
+    "title": "Onahole Nirkabel Xv1",
+    "url": "https://mirrorinkomik.my.id/manhwa/onahole-nirkabel-xv1",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9391_67e2e2e801d90.webp"
   },
   {
-    "title": "Saya Satu-satunya Pria di Pangkalan Militer",
-    "url": "https://mirrorinkomik.my.id/manhwa/saya-satu-satunya-pria-di-pangkalan-militer",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10023_6828770195f97.webp"
+    "title": "Hero-Sama, Kuharap Kau Bersenang-senang Semalam",
+    "url": "https://mirrorinkomik.my.id/manga/hero-sama-kuharap-kau-bersenang-senang-semalam",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13399_69ee4aa7b2180.webp"
   },
   {
-    "title": "Saya Baru Saja Melakukan Pemeriksaan Kesehatan",
-    "url": "https://mirrorinkomik.my.id/manhwa/saya-baru-saja-melakukan-pemeriksaan-kesehatan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14090_6a3252af6efac.webp"
+    "title": "Situasi yang Sulit",
+    "url": "https://mirrorinkomik.my.id/manhwa/situasi-yang-sulit",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14003_6a28a8c56ea90.webp"
   },
   {
-    "title": "Seperti Ayah, Seperti Anak",
-    "url": "https://mirrorinkomik.my.id/manhwa/seperti-ayah-seperti-anak",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12659_6952d7f7a9d18_xv1.webp"
+    "title": "Pacarku Ingin Pemahaman Orang Dewasa",
+    "url": "https://mirrorinkomik.my.id/manga/pacarku-ingin-pemahaman-orang-dewasa",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11211_6893ca324785f.webp"
+  },
+  {
+    "title": "Bimbingan Belajar yang Mencurigakan",
+    "url": "https://mirrorinkomik.my.id/manhwa/bimbingan-belajar-yang-mencurigakan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14433_6a5ba8c3b9418.webp"
+  },
+  {
+    "title": "Seorang Pria yang Terkait Konten NSFW Baru Saja Bergabung dengan Perusahaan",
+    "url": "https://mirrorinkomik.my.id/manhwa/seorang-pria-yang-terkait-konten-nsfw-baru-saja-bergabung-dengan-perusahaan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14370_6a57dfcfc9587.webp"
+  },
+  {
+    "title": "Tingkat Hati",
+    "url": "https://mirrorinkomik.my.id/manhwa/tingkat-hati",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14203_6a422890afd45.webp"
+  },
+  {
+    "title": "Tak Ada Cukup Lelaki",
+    "url": "https://mirrorinkomik.my.id/manhwa/tak-ada-cukup-lelaki",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13923_6a1e47834ab4b.webp"
+  },
+  {
+    "title": "Pijat Kota Baru",
+    "url": "https://mirrorinkomik.my.id/manhwa/pijat-kota-baru",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13402_69ee4d42a6502.webp"
+  },
+  {
+    "title": "Rencana Pertukaran MILF",
+    "url": "https://mirrorinkomik.my.id/manhwa/rencana-pertukaran-milf",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8910_67af09bde37d5.webp"
+  },
+  {
+    "title": "Istri Pelarian",
+    "url": "https://mirrorinkomik.my.id/manhwa/istri-pelarian",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8043_675b6bd811906.webp"
+  },
+  {
+    "title": "Bayi yang Tidak Disengaja",
+    "url": "https://mirrorinkomik.my.id/manhwa/bayi-yang-tidak-disengaja",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12705_6954afe7b627c.webp"
+  },
+  {
+    "title": "Pria yang Terhormat",
+    "url": "https://mirrorinkomik.my.id/manhwa/pria-yang-terhormat",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14270_6a495cd91e368_xv1.webp"
+  },
+  {
+    "title": "Menjinakkan Saudara Tiri Perempuanku",
+    "url": "https://mirrorinkomik.my.id/manhwa/menjinakkan-saudara-tiri-perempuanku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13472_69f65b37c6bfd.webp"
+  },
+  {
+    "title": "Mencintaimu Hingga Meneteskan Air Mata",
+    "url": "https://mirrorinkomik.my.id/manhwa/mencintaimu-hingga-meneteskan-air-mata",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14624_6a7e14dcd620d.webp"
+  },
+  {
+    "title": "Paman Bajingan",
+    "url": "https://mirrorinkomik.my.id/manhwa/paman-bajingan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13102_69d6a8b491ad1.webp"
+  },
+  {
+    "title": "Istri Gadis Ajaib",
+    "url": "https://mirrorinkomik.my.id/manhwa/istri-gadis-ajaib",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13478_69f68ad81a083.webp"
   },
   {
     "title": "Aku Seorang Vampir",
@@ -70,39 +645,444 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12232_69233b3525ecc.webp"
   },
   {
+    "title": "Pendeta Wanita Dahalen",
+    "url": "https://mirrorinkomik.my.id/manhwa/pendeta-wanita-dahalen",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14095_6a32f7625b17e.webp"
+  },
+  {
+    "title": "Saya Satu-satunya Pria di Pangkalan Militer",
+    "url": "https://mirrorinkomik.my.id/manhwa/saya-satu-satunya-pria-di-pangkalan-militer",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10023_6828770195f97.webp"
+  },
+  {
+    "title": "Sangat Besar",
+    "url": "https://mirrorinkomik.my.id/manhwa/sangat-besar",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14268_6a495bb333a19.webp"
+  },
+  {
+    "title": "Atur! Volley",
+    "url": "https://mirrorinkomik.my.id/manhwa/atur-volley",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7456_670494e52ff89.webp"
+  },
+  {
+    "title": "Saudara Ruwet",
+    "url": "https://mirrorinkomik.my.id/manhwa/saudara-ruwet",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6612_6675c13f0b883.webp"
+  },
+  {
+    "title": "Klub Membaca Dewasa",
+    "url": "https://mirrorinkomik.my.id/manhwa/klub-membaca-dewasa",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8328_6789c72190d37.webp"
+  },
+  {
+    "title": "Terbangun Dalam Tubuh CEO",
+    "url": "https://mirrorinkomik.my.id/manhwa/terbangun-dalam-tubuh-ceo",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14616_6a7da4d57da81.webp"
+  },
+  {
+    "title": "Teman Masa Kecil yang Memikat",
+    "url": "https://mirrorinkomik.my.id/manhwa/teman-masa-kecil-yang-memikat",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14615_6a7da43309d64.webp"
+  },
+  {
+    "title": "Di Rumah Anjing Xv1",
+    "url": "https://mirrorinkomik.my.id/manhwa/di-rumah-anjing-xv1",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6628_6675c13f10f44.webp"
+  },
+  {
+    "title": "Berhenti Merokok",
+    "url": "https://mirrorinkomik.my.id/manhwa/berhenti-merokok",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7445_670446f461854_xv1.webp"
+  },
+  {
+    "title": "Teman-teman Kuliahku yang Cabul",
+    "url": "https://mirrorinkomik.my.id/manhwa/teman-teman-kuliahku-yang-cabul",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11484_68af6446a611d.webp"
+  },
+  {
+    "title": "Rumah Ibu dan Anak",
+    "url": "https://mirrorinkomik.my.id/manhwa/rumah-ibu-dan-anak",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12293_69287dceaed71.webp"
+  },
+  {
+    "title": "Chica Traviesa",
+    "url": "https://mirrorinkomik.my.id/manhwa/chica-traviesa",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12733_6955f13c7c28a.webp"
+  },
+  {
+    "title": "Budak Penampungan",
+    "url": "https://mirrorinkomik.my.id/manhwa/budak-penampungan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10628_68526c17aaa90.webp"
+  },
+  {
+    "title": "Buku Harian Penaklukan Wanita Prajurit yang Regresi!",
+    "url": "https://mirrorinkomik.my.id/manhwa/buku-harian-penaklukan-wanita-prajurit-yang-regresi",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6313_6675c13e9de9f_xv1.webp"
+  },
+  {
+    "title": "Saya Baru Saja Melakukan Pemeriksaan Kesehatan",
+    "url": "https://mirrorinkomik.my.id/manhwa/saya-baru-saja-melakukan-pemeriksaan-kesehatan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14090_6a3252af6efac.webp"
+  },
+  {
+    "title": "Rusak dan Terbengkalai",
+    "url": "https://mirrorinkomik.my.id/manhwa/rusak-dan-terbengkalai",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13861_6a1220c145844.webp"
+  },
+  {
+    "title": "Hutan Pohon Lemon",
+    "url": "https://mirrorinkomik.my.id/manhwa/hutan-pohon-lemon",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13084_69d65d2a3c21e.webp"
+  },
+  {
+    "title": "Kehamilan Yang Patuh",
+    "url": "https://mirrorinkomik.my.id/manhwa/kehamilan-yang-patuh",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12685_69535fd694e98.webp"
+  },
+  {
+    "title": "Malam Yang Mulia",
+    "url": "https://mirrorinkomik.my.id/manhwa/malam-yang-mulia",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11283_689b70add3382.webp"
+  },
+  {
+    "title": "Aku Suka Pria Tampan!",
+    "url": "https://mirrorinkomik.my.id/manhwa/aku-suka-pria-tampan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13524_69fa627f550f4.webp"
+  },
+  {
+    "title": "Harga Sebuah Naluri",
+    "url": "https://mirrorinkomik.my.id/manhwa/harga-sebuah-naluri",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12631_695188ceb9106.webp"
+  },
+  {
+    "title": "Nona Kecil Nakal",
+    "url": "https://mirrorinkomik.my.id/manhwa/nona-kecil-nakal",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12059_690eebefaaf45.webp"
+  },
+  {
+    "title": "Kucing Penurut",
+    "url": "https://mirrorinkomik.my.id/manhwa/kucing-penurut",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13909_6a1a321fcf33d.webp"
+  },
+  {
+    "title": "Vila Surga",
+    "url": "https://mirrorinkomik.my.id/manhwa/vila-surga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11591_68bb13b2ee0ba.webp"
+  },
+  {
+    "title": "Ingin Rasa",
+    "url": "https://mirrorinkomik.my.id/manhwa/ingin-rasa",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13481_69f6967882307.webp"
+  },
+  {
+    "title": "Sebuah Permainan Keinginan",
+    "url": "https://mirrorinkomik.my.id/manhwa/sebuah-permainan-keinginan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13110_69d6ff385776c.webp"
+  },
+  {
+    "title": "Setiap Gedung",
+    "url": "https://mirrorinkomik.my.id/manhwa/setiap-gedung",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11085_688c2310d1c84.webp"
+  },
+  {
+    "title": "Orang-Orang Kegelapan",
+    "url": "https://mirrorinkomik.my.id/manhwa/orang-orang-kegelapan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9486_67fb2dff8d0a1.webp"
+  },
+  {
+    "title": "Nilai Perguruan Tinggi Meroket",
+    "url": "https://mirrorinkomik.my.id/manhwa/nilai-perguruan-tinggi-meroket",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7138_66ada4f75adbf.webp"
+  },
+  {
+    "title": "Teman Bermain 19",
+    "url": "https://mirrorinkomik.my.id/manhwa/teman-bermain-19",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14026_6a2b6d042335c.webp"
+  },
+  {
+    "title": "Aku Akan Menjagamu Tetap Aman",
+    "url": "https://mirrorinkomik.my.id/manhwa/aku-akan-menjagamu-tetap-aman",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12064_690eef58510fa.webp"
+  },
+  {
+    "title": "Menangislah, Atau Lebih Baik Lagi, Mohon",
+    "url": "https://mirrorinkomik.my.id/manhwa/menangislah-atau-lebih-baik-lagi-mohon",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5566_6675c13da7f4d.webp"
+  },
+  {
+    "title": "XXX dari Subway",
+    "url": "https://mirrorinkomik.my.id/manhwa/xxx-dari-subway",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14613_6a7cc79bd9b77.webp"
+  },
+  {
+    "title": "Ada Samudra di Ruang Bawah Tanah Rumahnya",
+    "url": "https://mirrorinkomik.my.id/manhwa/ada-samudra-di-ruang-bawah-tanah-rumahnya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14611_6a7cc6a9be230.webp"
+  },
+  {
+    "title": "Jadilah Orang Jahat",
+    "url": "https://mirrorinkomik.my.id/manhwa/jadilah-orang-jahat",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13057_69d5be12410a3.webp"
+  },
+  {
+    "title": "Praktik Medis Ilegal di Toko Sudut Jalan",
+    "url": "https://mirrorinkomik.my.id/manhwa/praktik-medis-ilegal-di-toko-sudut-jalan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12171_691c5c7302e70_xv1.webp"
+  },
+  {
+    "title": "Bisakah Saya Membakar Bus Pendek Itu?",
+    "url": "https://mirrorinkomik.my.id/manhwa/bisakah-saya-membakar-bus-pendek-itu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13052_69d5b3b3b3526.webp"
+  },
+  {
+    "title": "Cinta Murni Seorang Pria Gagap, Perjaka, dan Tak Pernah Puas",
+    "url": "https://mirrorinkomik.my.id/manhwa/cinta-murni-seorang-pria-gagap-perjaka-dan-tak-pernah-puas",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14610_6a7cc191316d3.webp"
+  },
+  {
+    "title": "Negeri Bunga Persik",
+    "url": "https://mirrorinkomik.my.id/manhwa/negeri-bunga-persik",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14609_6a7cbffbe2f1c.webp"
+  },
+  {
+    "title": "Raja Iblis, Pahlawan, dan ~Kisah Romansa~",
+    "url": "https://mirrorinkomik.my.id/manhwa/raja-iblis-pahlawan-dan-kisah-romansa",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14367_6a57de1a60f32.webp"
+  },
+  {
+    "title": "Sang Pembantu Bertindak Keterlaluan!",
+    "url": "https://mirrorinkomik.my.id/manhwa/sang-pembantu-bertindak-keterlaluan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13181_69dc3cb7deafb.webp"
+  },
+  {
+    "title": "Rahasia Campuran",
+    "url": "https://mirrorinkomik.my.id/manhwa/rahasia-campuran",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14607_6a7cba89ee9b1.webp"
+  },
+  {
+    "title": "Sketsa Malam Musim Panas",
+    "url": "https://mirrorinkomik.my.id/manhwa/sketsa-malam-musim-panas",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14606_6a7cb9a1082d1.webp"
+  },
+  {
+    "title": "Ajumma Sebelah Rumah Memiliki Kelemahan Saya",
+    "url": "https://mirrorinkomik.my.id/manhwa/ajumma-sebelah-rumah-memiliki-kelemahan-saya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14004_6a28a95320fc2.webp"
+  },
+  {
+    "title": "Raja Iblis Menginginkan Perdamaian",
+    "url": "https://mirrorinkomik.my.id/manhwa/raja-iblis-menginginkan-perdamaian",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12876_6964e3caab33a.webp"
+  },
+  {
+    "title": "Anjing Liar Bermimpi Tentang Pesta",
+    "url": "https://mirrorinkomik.my.id/manhwa/anjing-liar-bermimpi-tentang-pesta",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11489_68b192178697b_xv1.webp"
+  },
+  {
+    "title": "Samo",
+    "url": "https://mirrorinkomik.my.id/manhwa/samo",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12815_695c881fb5d61.webp"
+  },
+  {
+    "title": "Pacar Doodle-ku",
+    "url": "https://mirrorinkomik.my.id/manhwa/pacar-doodle-ku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14605_6a7cb8c83fcda.webp"
+  },
+  {
+    "title": "Aku Akan Memakannya Sebelum Aku Mati",
+    "url": "https://mirrorinkomik.my.id/manhwa/aku-akan-memakannya-sebelum-aku-mati",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14604_6a7cb853cec68.webp"
+  },
+  {
+    "title": "Malam yang Memalukan",
+    "url": "https://mirrorinkomik.my.id/manhwa/malam-yang-memalukan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14603_6a7cb77309c49.webp"
+  },
+  {
+    "title": "Kupikir Dia Adalah Pemeran Pendukung Pria Yang Lembut Dan Polos!",
+    "url": "https://mirrorinkomik.my.id/manhwa/kupikir-dia-adalah-pemeran-pendukung-pria-yang-lembut-dan-polos",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14018_6a2a4d76c6d59.webp"
+  },
+  {
+    "title": "Aku Menjadi Istri Adipati Agung yang Terkutuk",
+    "url": "https://mirrorinkomik.my.id/manhwa/aku-menjadi-istri-adipati-agung-yang-terkutuk",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14009_6a2a005db2270.webp"
+  },
+  {
+    "title": "Bunga Adalah Umpan",
+    "url": "https://mirrorinkomik.my.id/manhwa/bunga-adalah-umpan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8522_6797b82809c40.webp"
+  },
+  {
+    "title": "Kisah Rahasia Profesor Wanita",
+    "url": "https://mirrorinkomik.my.id/manhwa/kisah-rahasia-profesor-wanita",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11680_68cdfdcecfe1b.webp"
+  },
+  {
+    "title": "Manajemen Romantisme Kantor",
+    "url": "https://mirrorinkomik.my.id/manhwa/manajemen-romantisme-kantor",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9487_67fb2e73b96ef.webp"
+  },
+  {
+    "title": "Menghipnotis Satpam",
+    "url": "https://mirrorinkomik.my.id/manhwa/menghipnotis-satpam",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9483_67faf7af3a379.webp"
+  },
+  {
+    "title": "Layanan Kebersihan",
+    "url": "https://mirrorinkomik.my.id/manhwa/layanan-kebersihan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8045_675b8d038b7be.webp"
+  },
+  {
+    "title": "Ero: Sang Putri Tunduk",
+    "url": "https://mirrorinkomik.my.id/manhwa/ero-sang-putri-tunduk",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12792_695b67cd2ff16.webp"
+  },
+  {
+    "title": "Situasi Penuh Ereksi",
+    "url": "https://mirrorinkomik.my.id/manhwa/situasi-penuh-ereksi",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9108_67cef12c49839.webp"
+  },
+  {
+    "title": "Rahasia Santa",
+    "url": "https://mirrorinkomik.my.id/manhwa/rahasia-santa",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7696_6725985f9d3a8.webp"
+  },
+  {
+    "title": "Ibu Rumah Tangga Pemangsa Pria",
+    "url": "https://mirrorinkomik.my.id/manga/ibu-rumah-tangga-pemangsa-pria",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14493_6a69ae4de4b62.webp"
+  },
+  {
+    "title": "Taman Hiburan",
+    "url": "https://mirrorinkomik.my.id/manhwa/taman-hiburan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14402_6a5b4687725e3.webp"
+  },
+  {
+    "title": "Menjelajahi Sexpedia Lewat Aksi Ranjang",
+    "url": "https://mirrorinkomik.my.id/manhwa/menjelajahi-sexpedia-lewat-aksi-ranjang",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14275_6a4966178fd67.webp"
+  },
+  {
+    "title": "Gadis dengan Kekuatan Ajaib",
+    "url": "https://mirrorinkomik.my.id/manhwa/gadis-dengan-kekuatan-ajaib",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14245_6a45e76587c3f.webp"
+  },
+  {
+    "title": "Guru Bahasa Asing",
+    "url": "https://mirrorinkomik.my.id/manhwa/guru-bahasa-asing",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14186_6a3c1ef43730f.webp"
+  },
+  {
+    "title": "Bekerja Dengan Tubuh Anda",
+    "url": "https://mirrorinkomik.my.id/manhwa/bekerja-dengan-tubuh-anda",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13708_6a06664386f64.webp"
+  },
+  {
+    "title": "Hari-Hari Yang Indah",
+    "url": "https://mirrorinkomik.my.id/manhwa/hari-hari-yang-indah",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7741_672cacb8c06ef.webp"
+  },
+  {
+    "title": "Cakar di Kampus",
+    "url": "https://mirrorinkomik.my.id/manhua/cakar-di-kampus",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/1/817_6505304179828_xv1.webp"
+  },
+  {
+    "title": "Permainan Pasangan Menikah",
+    "url": "https://mirrorinkomik.my.id/manhwa/permainan-pasangan-menikah",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10072_682aaaf0b87c5.webp"
+  },
+  {
+    "title": "Penguasa Pulau",
+    "url": "https://mirrorinkomik.my.id/manhwa/penguasa-pulau",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14576_6a76f8e5279c1.webp"
+  },
+  {
+    "title": "Perselingkuhan Rahasia Nao-san",
+    "url": "https://mirrorinkomik.my.id/manga/perselingkuhan-rahasia-nao-san",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14496_6a69b1d4f2df7.webp"
+  },
+  {
+    "title": "Ibu Mertua Yang Menyebalkan, Ya Ampun!",
+    "url": "https://mirrorinkomik.my.id/manga/ibu-mertua-yang-menyebalkan-ya-ampun",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14495_6a69af2a15b76.webp"
+  },
+  {
+    "title": "Cinta Bersorak!",
+    "url": "https://mirrorinkomik.my.id/manhwa/cinta-bersorak",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13955_6a229ea0e2c61_xv1.webp"
+  },
+  {
+    "title": "Ciuman di Malam Pertengahan Musim Panas",
+    "url": "https://mirrorinkomik.my.id/manhwa/ciuman-di-malam-pertengahan-musim-panas",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14597_6a7ae5db83d4b.webp"
+  },
+  {
+    "title": "Obsesi yang Merusak",
+    "url": "https://mirrorinkomik.my.id/manhwa/obsesi-yang-merusak",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14595_6a7ae3f03bc80.webp"
+  },
+  {
+    "title": "Ahjussi Berukuran XXL",
+    "url": "https://mirrorinkomik.my.id/manhua/ahjussi-berukuran-xxl",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14594_6a7ae30b03ef4.webp"
+  },
+  {
+    "title": "Un-holy Night",
+    "url": "https://mirrorinkomik.my.id/manhwa/un-holy-night",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14593_6a7addb8b6075.webp"
+  },
+  {
+    "title": "Penjahat yang Disiksa oleh Pahlawan",
+    "url": "https://mirrorinkomik.my.id/manhwa/penjahat-yang-disiksa-oleh-pahlawan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14591_6a7a0d0f914f3.webp"
+  },
+  {
+    "title": "Hubungan Rahasia (Chico)",
+    "url": "https://mirrorinkomik.my.id/manhwa/hubungan-rahasia-chico",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14476_6a65810981c90.webp"
+  },
+  {
+    "title": "Ruang untuk Pembaharuan",
+    "url": "https://mirrorinkomik.my.id/manhwa/ruang-untuk-pembaharuan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10246_6839e4d5d6c89.webp"
+  },
+  {
+    "title": "Posisi Tubuh",
+    "url": "https://mirrorinkomik.my.id/manhwa/posisi-tubuh",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12078_69100e4c957a0.webp"
+  },
+  {
+    "title": "Alkemis Bulan Penuh [ORE O]",
+    "url": "https://mirrorinkomik.my.id/manhwa/alkemis-bulan-penuh-ore-o",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14225_6a44e5dac1ba1.webp"
+  },
+  {
+    "title": "Hari yang Beruntung",
+    "url": "https://mirrorinkomik.my.id/manhwa/hari-yang-beruntung",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14586_6a77e929bd6e7.webp"
+  },
+  {
+    "title": "Keinginan Iblis",
+    "url": "https://mirrorinkomik.my.id/manhwa/keinginan-iblis",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5548_6675c13da2a58.webp"
+  },
+  {
+    "title": "Cinta Pecandu",
+    "url": "https://mirrorinkomik.my.id/manhwa/cinta-pecandu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11653_68cbb6774a391.webp"
+  },
+  {
+    "title": "Seperti Ayah, Seperti Anak",
+    "url": "https://mirrorinkomik.my.id/manhwa/seperti-ayah-seperti-anak",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12659_6952d7f7a9d18_xv1.webp"
+  },
+  {
     "title": "Pulang Kampung yang Gemilang",
     "url": "https://mirrorinkomik.my.id/manhwa/pulang-kampung-yang-gemilang",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10845_68694b9fb7c33.webp"
-  },
-  {
-    "title": "Dojin dan Juan",
-    "url": "https://mirrorinkomik.my.id/manhwa/dojin-dan-juan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9972_6824d76759861.webp"
-  },
-  {
-    "title": "100 Kutukan Illeston Manor",
-    "url": "https://mirrorinkomik.my.id/manhwa/100-kutukan-illeston-manor",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11407_68a832eaecc10.webp"
-  },
-  {
-    "title": "Yu Irin di Toilet Taman",
-    "url": "https://mirrorinkomik.my.id/manhwa/yu-irin-di-toilet-taman",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14487_6a68e81088239.webp"
-  },
-  {
-    "title": "Anak Laki-Laki Abad 20",
-    "url": "https://mirrorinkomik.my.id/manga/anak-laki-laki-abad-20",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/4/3995_6675c13bacd3e.webp"
-  },
-  {
-    "title": "Suatu Hari Aku Menjadi Putri Kaisar Xv1",
-    "url": "https://mirrorinkomik.my.id/manhwa/suatu-hari-aku-menjadi-putri-kaisar-xv1",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/2/1382_65053042082bd.webp"
-  },
-  {
-    "title": "Kualifikasi Sang Duchess",
-    "url": "https://mirrorinkomik.my.id/manhwa/kualifikasi-sang-duchess",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14583_6a77613d7b03d.webp"
   },
   {
     "title": "Suhu Meningkat di Bawah AC yang Rusak",
@@ -110,24 +1090,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14582_6a77607186566.webp"
   },
   {
-    "title": "Kakak Iparku yang Cantik",
-    "url": "https://mirrorinkomik.my.id/manhwa/kakak-iparku-yang-cantik",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14581_6a775de845269.webp"
-  },
-  {
-    "title": "Panduan Strategi untuk Akhir Buruk yang Ceria",
-    "url": "https://mirrorinkomik.my.id/manhwa/panduan-strategi-untuk-akhir-buruk-yang-ceria",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14579_6a7753891bba7.webp"
-  },
-  {
     "title": "Hari Keputusan Rahasia",
     "url": "https://mirrorinkomik.my.id/manhwa/hari-keputusan-rahasia",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14271_6a496166d6f52.webp"
-  },
-  {
-    "title": "Air Mata Di Atas Bunga Layu",
-    "url": "https://mirrorinkomik.my.id/manhwa/air-mata-di-atas-bunga-layu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6994_6688be9f5a8fd.webp"
   },
   {
     "title": "Pelayan yang Cakap Tahu Cara Menertibkan Tuan Muda",
@@ -155,69 +1120,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13161_69da7599c9382.webp"
   },
   {
-    "title": "Vila Surga",
-    "url": "https://mirrorinkomik.my.id/manhwa/vila-surga",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11591_68bb13b2ee0ba.webp"
-  },
-  {
-    "title": "Anjing Liar Bermimpi Tentang Pesta",
-    "url": "https://mirrorinkomik.my.id/manhwa/anjing-liar-bermimpi-tentang-pesta",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11489_68b192178697b_xv1.webp"
-  },
-  {
-    "title": "Saudara Ruwet",
-    "url": "https://mirrorinkomik.my.id/manhwa/saudara-ruwet",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6612_6675c13f0b883.webp"
-  },
-  {
-    "title": "Kelas Rahasia",
-    "url": "https://mirrorinkomik.my.id/manhwa/kelas-rahasia",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/3/2183_6675c139555ad.webp"
-  },
-  {
-    "title": "Menjinakkan Saudara Tiri Perempuanku",
-    "url": "https://mirrorinkomik.my.id/manhwa/menjinakkan-saudara-tiri-perempuanku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13472_69f65b37c6bfd.webp"
-  },
-  {
-    "title": "Manusia yang Bereinkarnasi",
-    "url": "https://mirrorinkomik.my.id/manhwa/manusia-yang-bereinkarnasi",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10843_686949a89fad8.webp"
-  },
-  {
-    "title": "Cinta Bersorak!",
-    "url": "https://mirrorinkomik.my.id/manhwa/cinta-bersorak",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13955_6a229ea0e2c61_xv1.webp"
-  },
-  {
-    "title": "Penguasa Pulau",
-    "url": "https://mirrorinkomik.my.id/manhwa/penguasa-pulau",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14576_6a76f8e5279c1.webp"
-  },
-  {
-    "title": "Berguling-guling Bersama Putra Mahkota Di Tempat Tidur",
-    "url": "https://mirrorinkomik.my.id/manhwa/berguling-guling-bersama-putra-mahkota-di-tempat-tidur",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14478_6a65836d3cbc0.webp"
-  },
-  {
     "title": "Mencari Seseorang untuk Memuaskan Saya",
     "url": "https://mirrorinkomik.my.id/manhwa/mencari-seseorang-untuk-memuaskan-saya",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14371_6a5838c02b891.webp"
-  },
-  {
-    "title": "Cinta:Nol",
-    "url": "https://mirrorinkomik.my.id/manhwa/cintanol",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14251_6a467071576b9.webp"
-  },
-  {
-    "title": "Pijat Kota Baru",
-    "url": "https://mirrorinkomik.my.id/manhwa/pijat-kota-baru",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13402_69ee4d42a6502.webp"
-  },
-  {
-    "title": "Aku Meminumnya, Bukan Suamiku",
-    "url": "https://mirrorinkomik.my.id/manhwa/aku-meminumnya-bukan-suamiku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13315_69e44e3e72965.webp"
   },
   {
     "title": "Aku Menjadi Istri Mendiang Grand Duke",
@@ -225,34 +1130,14 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12987_6972c36a0faf5_xv1.webp"
   },
   {
-    "title": "Malam Yang Mulia",
-    "url": "https://mirrorinkomik.my.id/manhwa/malam-yang-mulia",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11283_689b70add3382.webp"
-  },
-  {
-    "title": "Tak Ada Cukup Lelaki",
-    "url": "https://mirrorinkomik.my.id/manhwa/tak-ada-cukup-lelaki",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13923_6a1e47834ab4b.webp"
-  },
-  {
     "title": "Menyelamatkan Isekai Dengan Dorongan",
     "url": "https://mirrorinkomik.my.id/manhwa/menyelamatkan-isekai-dengan-dorongan",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12520_6941ae31558d2_xv1.webp"
   },
   {
-    "title": "Kuburan Angsa",
-    "url": "https://mirrorinkomik.my.id/manhwa/kuburan-angsa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11693_68cec3faeef3a.webp"
-  },
-  {
-    "title": "Fotolah Aku",
-    "url": "https://mirrorinkomik.my.id/manhwa/fotolah-aku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11517_68b6002dc1fa9.webp"
-  },
-  {
-    "title": "Bekerja Dengan Tubuh Anda",
-    "url": "https://mirrorinkomik.my.id/manhwa/bekerja-dengan-tubuh-anda",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13708_6a06664386f64.webp"
+    "title": "Raja Seks Atap",
+    "url": "https://mirrorinkomik.my.id/manhwa/raja-seks-atap",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8908_67af06c643bda.webp"
   },
   {
     "title": "Jalan Menuju Anda",
@@ -260,74 +1145,14 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13175_69dc347e7b883.webp"
   },
   {
-    "title": "Dari Miskin Menjadi Pangeran",
-    "url": "https://mirrorinkomik.my.id/manhwa/dari-miskin-menjadi-pangeran",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10225_683816ac5b2fd.webp"
-  },
-  {
     "title": "Kakak Perempuan Eungwang",
     "url": "https://mirrorinkomik.my.id/manhwa/kakak-perempuan-eungwang",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14250_6a466f73421ff.webp"
   },
   {
-    "title": "Berdiri di Atas Bayangan Hitam",
-    "url": "https://mirrorinkomik.my.id/manhwa/berdiri-di-atas-bayangan-hitam",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14461_6a6350b3a8857.webp"
-  },
-  {
     "title": "Pernikahan Kerad",
     "url": "https://mirrorinkomik.my.id/manhwa/pernikahan-kerad",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5819_6675c13e03992_xv1.webp"
-  },
-  {
-    "title": "Malam Suci: Suamiku Pasti Seorang Paladin",
-    "url": "https://mirrorinkomik.my.id/manhwa/malam-suci-suamiku-pasti-seorang-paladin",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14277_6a4ac590ade03.webp"
-  },
-  {
-    "title": "Kode Budak",
-    "url": "https://mirrorinkomik.my.id/manhwa/kode-budak",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13846_6a1132fcec5d7.webp"
-  },
-  {
-    "title": "Tamak",
-    "url": "https://mirrorinkomik.my.id/manhwa/tamak",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12633_695189c49f04a.webp"
-  },
-  {
-    "title": "Penjantan di Ruang Perkembangbiakkan",
-    "url": "https://mirrorinkomik.my.id/manhwa/penjantan-di-ruang-perkembangbiakkan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12857_69630cb97490e.webp"
-  },
-  {
-    "title": "Tidak Sadar",
-    "url": "https://mirrorinkomik.my.id/manhwa/tidak-sadar",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14169_6a380bf036d4c_xv1.webp"
-  },
-  {
-    "title": "Ksatria Suci",
-    "url": "https://mirrorinkomik.my.id/manga/ksatria-suci",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13850_6a11f5efb1782.webp"
-  },
-  {
-    "title": "Istri Gadis Ajaib",
-    "url": "https://mirrorinkomik.my.id/manhwa/istri-gadis-ajaib",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13478_69f68ad81a083.webp"
-  },
-  {
-    "title": "Kesepakatan Berisiko dan Gadis Tetangga",
-    "url": "https://mirrorinkomik.my.id/manhwa/kesepakatan-berisiko-dan-gadis-tetangga",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10840_6869484440477.webp"
-  },
-  {
-    "title": "Atur! Volley",
-    "url": "https://mirrorinkomik.my.id/manhwa/atur-volley",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7456_670494e52ff89.webp"
-  },
-  {
-    "title": "Aku Hanya Membutuhkan Anak Duke",
-    "url": "https://mirrorinkomik.my.id/manhwa/aku-hanya-membutuhkan-anak-duke",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13177_69dc38b526652.webp"
   },
   {
     "title": "Bermain XX Dengan Putra Bungsu Keluarga Chaebol",
@@ -340,34 +1165,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9608_680945c2a9d24.webp"
   },
   {
-    "title": "Samo",
-    "url": "https://mirrorinkomik.my.id/manhwa/samo",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12815_695c881fb5d61.webp"
-  },
-  {
-    "title": "Biarawati Budak Seks",
-    "url": "https://mirrorinkomik.my.id/manhwa/biarawati-budak-seks",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14329_6a51f310c934e.webp"
-  },
-  {
-    "title": "Berhenti Merokok",
-    "url": "https://mirrorinkomik.my.id/manhwa/berhenti-merokok",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7445_670446f461854_xv1.webp"
-  },
-  {
-    "title": "Anjing Itu Sangat Polos",
-    "url": "https://mirrorinkomik.my.id/manhwa/anjing-itu-sangat-polos",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14473_6a657f858e907.webp"
-  },
-  {
-    "title": "Praktik Medis Ilegal di Toko Sudut Jalan",
-    "url": "https://mirrorinkomik.my.id/manhwa/praktik-medis-ilegal-di-toko-sudut-jalan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12171_691c5c7302e70_xv1.webp"
-  },
-  {
-    "title": "Pacarku Ingin Pemahaman Orang Dewasa",
-    "url": "https://mirrorinkomik.my.id/manga/pacarku-ingin-pemahaman-orang-dewasa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11211_6893ca324785f.webp"
+    "title": "Yu Irin di Toilet Taman",
+    "url": "https://mirrorinkomik.my.id/manhwa/yu-irin-di-toilet-taman",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14487_6a68e81088239.webp"
   },
   {
     "title": "Tidak Boleh Berciuman Malam Ini",
@@ -380,59 +1180,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9067_67cddb7bc013c.webp"
   },
   {
-    "title": "Ibu Mertua Yang Menyebalkan, Ya Ampun!",
-    "url": "https://mirrorinkomik.my.id/manga/ibu-mertua-yang-menyebalkan-ya-ampun",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14495_6a69af2a15b76.webp"
-  },
-  {
-    "title": "Ibu Rumah Tangga Pemangsa Pria",
-    "url": "https://mirrorinkomik.my.id/manga/ibu-rumah-tangga-pemangsa-pria",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14493_6a69ae4de4b62.webp"
-  },
-  {
-    "title": "Rumah Ibu dan Anak",
-    "url": "https://mirrorinkomik.my.id/manhwa/rumah-ibu-dan-anak",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12293_69287dceaed71.webp"
-  },
-  {
-    "title": "Perselingkuhan Rahasia Nao-san",
-    "url": "https://mirrorinkomik.my.id/manga/perselingkuhan-rahasia-nao-san",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14496_6a69b1d4f2df7.webp"
-  },
-  {
     "title": "Hipnosis Merokok Xv1",
     "url": "https://mirrorinkomik.my.id/manhwa/hipnosis-merokok-xv1",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4784_6675c13ca4f77.webp"
-  },
-  {
-    "title": "Sihir itu Baik, dan Teman Masa Kecilku Sangat Menarik",
-    "url": "https://mirrorinkomik.my.id/manhwa/sihir-itu-baik-dan-teman-masa-kecilku-sangat-menarik",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13700_6a051aee393a7.webp"
-  },
-  {
-    "title": "Lima Suami Muncul di Hari Ulang Tahunku",
-    "url": "https://mirrorinkomik.my.id/manhwa/lima-suami-muncul-di-hari-ulang-tahunku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13189_69dc41b661b22.webp"
-  },
-  {
-    "title": "Nona Kecil Nakal",
-    "url": "https://mirrorinkomik.my.id/manhwa/nona-kecil-nakal",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12059_690eebefaaf45.webp"
-  },
-  {
-    "title": "Teman Bermain 19",
-    "url": "https://mirrorinkomik.my.id/manhwa/teman-bermain-19",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14026_6a2b6d042335c.webp"
-  },
-  {
-    "title": "Aku Akan Menjagamu Tetap Aman",
-    "url": "https://mirrorinkomik.my.id/manhwa/aku-akan-menjagamu-tetap-aman",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12064_690eef58510fa.webp"
-  },
-  {
-    "title": "Orang-Orang Kegelapan",
-    "url": "https://mirrorinkomik.my.id/manhwa/orang-orang-kegelapan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9486_67fb2dff8d0a1.webp"
   },
   {
     "title": "Para Ibu Rumah Tangga yang Terjerumus ke Dalam Kegelapan",
@@ -440,39 +1190,14 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14524_6a6fef81f3f17.webp"
   },
   {
-    "title": "Pijat Wanita",
-    "url": "https://mirrorinkomik.my.id/manhwa/pijat-wanita",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13108_69d6f88f399de.webp"
-  },
-  {
-    "title": "Berburu MILF Di Dunia Lain",
-    "url": "https://mirrorinkomik.my.id/manhwa/berburu-milf-di-dunia-lain",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4900_6675c13cc707c.webp"
-  },
-  {
     "title": "Kutukan Itu Baik dan Teman Masa Kecil Itu Menyenangkan",
     "url": "https://mirrorinkomik.my.id/manhwa/kutukan-itu-baik-dan-teman-masa-kecil-itu-menyenangkan",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13660_6a01469ddb8da.webp"
   },
   {
-    "title": "Kisah Rahasia Profesor Wanita",
-    "url": "https://mirrorinkomik.my.id/manhwa/kisah-rahasia-profesor-wanita",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11680_68cdfdcecfe1b.webp"
-  },
-  {
-    "title": "Ayah Mertua Meniduri Mereka Semua",
-    "url": "https://mirrorinkomik.my.id/manhwa/ayah-mertua-meniduri-mereka-semua",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11483_68af632985470.webp"
-  },
-  {
     "title": "Bagus Sekali",
     "url": "https://mirrorinkomik.my.id/manhwa/bagus-sekali",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14556_6a7269abc42f2.webp"
-  },
-  {
-    "title": "Pencocokan S yang Mendebarkan",
-    "url": "https://mirrorinkomik.my.id/manhwa/pencocokan-s-yang-mendebarkan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14183_6a3bfdbd8570d.webp"
   },
   {
     "title": "Liburan Musim Panas yang Seru (ala Bintang)",
@@ -505,49 +1230,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14548_6a725e60d6aed.webp"
   },
   {
-    "title": "Penjara Balas Dendam",
-    "url": "https://mirrorinkomik.my.id/manhwa/penjara-balas-dendam",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9026_67ba221b1e4d6.webp"
-  },
-  {
-    "title": "Percayalah! Aku Akan Menawarkanmu Yang Pertama",
-    "url": "https://mirrorinkomik.my.id/manhwa/percayalah-aku-akan-menawarkanmu-yang-pertama",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10978_6878d44b4d5f6.webp"
-  },
-  {
     "title": "Karena Aku Sangat Mencintaimu",
     "url": "https://mirrorinkomik.my.id/manhwa/karena-aku-sangat-mencintaimu",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13253_69e09571a42df_xv1.webp"
-  },
-  {
-    "title": "Gongjunimeun Im Jun-Saeng",
-    "url": "https://mirrorinkomik.my.id/manhwa/gongjunimeun-im-jun-saeng",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12066_690ef00a0006a.webp"
-  },
-  {
-    "title": "Upaya Para Guru",
-    "url": "https://mirrorinkomik.my.id/manhwa/upaya-para-guru",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7112_66a9aa6d6e9fc.webp"
-  },
-  {
-    "title": "Aku Suka Pria Tampan!",
-    "url": "https://mirrorinkomik.my.id/manhwa/aku-suka-pria-tampan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13524_69fa627f550f4.webp"
-  },
-  {
-    "title": "Pembalikan Hubungan Sekitar",
-    "url": "https://mirrorinkomik.my.id/manhwa/pembalikan-hubungan-sekitar",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6492_6675c13eda9c1.webp"
-  },
-  {
-    "title": "Taman Hiburan",
-    "url": "https://mirrorinkomik.my.id/manhwa/taman-hiburan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14402_6a5b4687725e3.webp"
-  },
-  {
-    "title": "Didiskualifikasi Sebagai Manusia",
-    "url": "https://mirrorinkomik.my.id/manhwa/didiskualifikasi-sebagai-manusia",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14188_6a3c20f338637.webp"
   },
   {
     "title": "Aku Akan Mengubah Kalian Semua Menjadi Mainan Masturbasi",
@@ -560,89 +1245,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10979_6878d520023de.webp"
   },
   {
-    "title": "Hidangan Penutup yang Seksi",
-    "url": "https://mirrorinkomik.my.id/manhwa/hidangan-penutup-yang-seksi",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14025_6a2b6b066aa03.webp"
-  },
-  {
-    "title": "Pacarku Bernama Aly, Sudah Terlatih Sepenuhnya",
-    "url": "https://mirrorinkomik.my.id/manhwa/pacarku-bernama-aly-sudah-terlatih-sepenuhnya",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12885_696658c08c85c.webp"
-  },
-  {
-    "title": "Kau Tak Akan Menghancurkanku!",
-    "url": "https://mirrorinkomik.my.id/manhwa/kau-tak-akan-menghancurkanku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11860_68f0eefa13405.webp"
-  },
-  {
     "title": "Luka Bakar",
     "url": "https://mirrorinkomik.my.id/manhwa/luka-bakar",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14540_6a70fa5f41d48.webp"
-  },
-  {
-    "title": "Setelah Lulus, Aku Tidur Dengan Semua Teman Sekelasku",
-    "url": "https://mirrorinkomik.my.id/manhwa/setelah-lulus-aku-tidur-dengan-semua-teman-sekelasku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14403_6a5b473c1cafe.webp"
-  },
-  {
-    "title": "Seorang Pervert yang Hanya Memilih dan Melahap Pervert Lainnya",
-    "url": "https://mirrorinkomik.my.id/manhwa/seorang-pervert-yang-hanya-memilih-dan-melahap-pervert-lainnya",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14266_6a495a261dc03.webp"
-  },
-  {
-    "title": "Cerita Pengalaman Vivian",
-    "url": "https://mirrorinkomik.my.id/manhwa/cerita-pengalaman-vivian",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13989_6a275246a3f88.webp"
-  },
-  {
-    "title": "Raja Iblis Menginginkan Perdamaian",
-    "url": "https://mirrorinkomik.my.id/manhwa/raja-iblis-menginginkan-perdamaian",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12876_6964e3caab33a.webp"
-  },
-  {
-    "title": "Ayah Tunggal",
-    "url": "https://mirrorinkomik.my.id/manhua/ayah-tunggal",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14513_6a6c79a46cddf.webp"
-  },
-  {
-    "title": "Paman Bajingan",
-    "url": "https://mirrorinkomik.my.id/manhwa/paman-bajingan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13102_69d6a8b491ad1.webp"
-  },
-  {
-    "title": "Succubus Ingin Hidup Biasa Saja!",
-    "url": "https://mirrorinkomik.my.id/manhwa/succubus-ingin-hidup-biasa-saja",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14514_6a6d39580f92e.webp"
-  },
-  {
-    "title": "Cinta Sesat yang Murni",
-    "url": "https://mirrorinkomik.my.id/manhwa/cinta-sesat-yang-murni",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13973_6a25eec920d49.webp"
-  },
-  {
-    "title": "Panduan Pengguna Regresor",
-    "url": "https://mirrorinkomik.my.id/manhwa/panduan-pengguna-regresor",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/3/2268_6675c139703e3.webp"
-  },
-  {
-    "title": "Nona Soeun",
-    "url": "https://mirrorinkomik.my.id/manhwa/nona-soeun",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7139_66ada6bc4dade.webp"
-  },
-  {
-    "title": "Kejutan Keluarga",
-    "url": "https://mirrorinkomik.my.id/manhwa/kejutan-keluarga",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13709_6a0667df4ad7b.webp"
-  },
-  {
-    "title": "Aku Menjadi Istri Adipati Agung yang Terkutuk",
-    "url": "https://mirrorinkomik.my.id/manhwa/aku-menjadi-istri-adipati-agung-yang-terkutuk",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14009_6a2a005db2270.webp"
-  },
-  {
-    "title": "Sang Pembantu Bertindak Keterlaluan!",
-    "url": "https://mirrorinkomik.my.id/manhwa/sang-pembantu-bertindak-keterlaluan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13181_69dc3cb7deafb.webp"
   },
   {
     "title": "Melakukan Segala Hal Kecuali XX Dengan Temanku",
@@ -650,34 +1255,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14529_6a6fff3fd0d92.webp"
   },
   {
-    "title": "Alkemis Bulan Penuh [ORE O]",
-    "url": "https://mirrorinkomik.my.id/manhwa/alkemis-bulan-penuh-ore-o",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14225_6a44e5dac1ba1.webp"
-  },
-  {
-    "title": "Hong-Cha dan Beom-Ja,",
-    "url": "https://mirrorinkomik.my.id/manhwa/hong-cha-dan-beom-ja",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14528_6a6ff50c8410a.webp"
-  },
-  {
-    "title": "Api Tersembunyi",
-    "url": "https://mirrorinkomik.my.id/manhwa/api-tersembunyi",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14525_6a6feff13854e.webp"
-  },
-  {
-    "title": "Misi Cinta",
-    "url": "https://mirrorinkomik.my.id/manhwa/misi-cinta",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13154_69da3d0342327.webp"
-  },
-  {
     "title": "Pada Hari Terbuka",
     "url": "https://mirrorinkomik.my.id/manga/pada-hari-terbuka",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11382_68a7470a40a4f.webp"
-  },
-  {
-    "title": "Akan Kuajarkan Bela Diri Padamu",
-    "url": "https://mirrorinkomik.my.id/manhwa/akan-kuajarkan-bela-diri-padamu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12396_692ec9c420b7b.webp"
   },
   {
     "title": "Tolong Aku, Michael",
@@ -685,44 +1265,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14171_6a38a98d43d30.webp"
   },
   {
-    "title": "Resep Pai Ceri",
-    "url": "https://mirrorinkomik.my.id/manhwa/resep-pai-ceri",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14442_6a5ec58187fde.webp"
-  },
-  {
-    "title": "Bunga Adalah Umpan",
-    "url": "https://mirrorinkomik.my.id/manhwa/bunga-adalah-umpan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8522_6797b82809c40.webp"
-  },
-  {
-    "title": "Duke dan Duchess Memiliki Sebuah Rahasia",
-    "url": "https://mirrorinkomik.my.id/manhwa/duke-dan-duchess-memiliki-sebuah-rahasia",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14471_6a657e417dd35.webp"
-  },
-  {
-    "title": "Raja Iblis, Pahlawan, dan ~Kisah Romansa~",
-    "url": "https://mirrorinkomik.my.id/manhwa/raja-iblis-pahlawan-dan-kisah-romansa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14367_6a57de1a60f32.webp"
-  },
-  {
-    "title": "Pengalaman Bercinta 2",
-    "url": "https://mirrorinkomik.my.id/manhwa/pengalaman-bercinta-2",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13957_6a229f7ec0743.webp"
-  },
-  {
     "title": "Dunia Tanpa Adanya Lelaki",
     "url": "https://mirrorinkomik.my.id/manhwa/dunia-tanpa-adanya-lelaki",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6020_6675c13e40878.webp"
-  },
-  {
-    "title": "Kupikir Dia Adalah Pemeran Pendukung Pria Yang Lembut Dan Polos!",
-    "url": "https://mirrorinkomik.my.id/manhwa/kupikir-dia-adalah-pemeran-pendukung-pria-yang-lembut-dan-polos",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14018_6a2a4d76c6d59.webp"
-  },
-  {
-    "title": "Harap Isi Ulang Energi Yangmu",
-    "url": "https://mirrorinkomik.my.id/manhwa/harap-isi-ulang-energi-yangmu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14170_6a38a929e3826.webp"
   },
   {
     "title": "Lampu Annex Tidak Pernah Padam",
@@ -733,21 +1278,6 @@
     "title": "Yokai Yang Tidak Terlihat",
     "url": "https://mirrorinkomik.my.id/manga/yokai-yang-tidak-terlihat",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14416_6a5b96d13562c.webp"
-  },
-  {
-    "title": "Nilai Perguruan Tinggi Meroket",
-    "url": "https://mirrorinkomik.my.id/manhwa/nilai-perguruan-tinggi-meroket",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7138_66ada4f75adbf.webp"
-  },
-  {
-    "title": "Situasi Penuh Ereksi",
-    "url": "https://mirrorinkomik.my.id/manhwa/situasi-penuh-ereksi",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9108_67cef12c49839.webp"
-  },
-  {
-    "title": "Rahasia Santa",
-    "url": "https://mirrorinkomik.my.id/manhwa/rahasia-santa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7696_6725985f9d3a8.webp"
   },
   {
     "title": "Dungeon XX",
@@ -770,24 +1300,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12728_69558bd480af9.webp"
   },
   {
-    "title": "Teman Bicara Kotor",
-    "url": "https://mirrorinkomik.my.id/manhwa/teman-bicara-kotor",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9365_67e0b8743f75e.webp"
-  },
-  {
     "title": "Pembantu Wali Kelas",
     "url": "https://mirrorinkomik.my.id/manga/pembantu-wali-kelas",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12439_69338dfad1fcf.webp"
-  },
-  {
-    "title": "Manajemen Romantisme Kantor",
-    "url": "https://mirrorinkomik.my.id/manhwa/manajemen-romantisme-kantor",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9487_67fb2e73b96ef.webp"
-  },
-  {
-    "title": "Menjinakkan Seorang Wanita Pengganggu",
-    "url": "https://mirrorinkomik.my.id/manhwa/menjinakkan-seorang-wanita-pengganggu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8909_67af0788267bb.webp"
   },
   {
     "title": "Si Penjahat Wanita Menatapku",
@@ -800,64 +1315,14 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14326_6a4fec7e00057.webp"
   },
   {
-    "title": "Saya Ingin Bekerja Dengan Tenang",
-    "url": "https://mirrorinkomik.my.id/manhwa/saya-ingin-bekerja-dengan-tenang",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13169_69daa2bf81bb9_xv1.webp"
-  },
-  {
     "title": "Aku Punya Rahasia dengan Istri Temanku",
     "url": "https://mirrorinkomik.my.id/manhwa/aku-punya-rahasia-dengan-istri-temanku",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13109_69d6fb5765cdd.webp"
   },
   {
-    "title": "Titik Balik",
-    "url": "https://mirrorinkomik.my.id/manhwa/titik-balik",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5652_6675c13dc1323_xv1.webp"
-  },
-  {
-    "title": "Kucing Penurut",
-    "url": "https://mirrorinkomik.my.id/manhwa/kucing-penurut",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13909_6a1a321fcf33d.webp"
-  },
-  {
-    "title": "Ingin Rasa",
-    "url": "https://mirrorinkomik.my.id/manhwa/ingin-rasa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13481_69f6967882307.webp"
-  },
-  {
-    "title": "Setiap Gedung",
-    "url": "https://mirrorinkomik.my.id/manhwa/setiap-gedung",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11085_688c2310d1c84.webp"
-  },
-  {
-    "title": "Buku Harian Penaklukan Wanita Prajurit yang Regresi!",
-    "url": "https://mirrorinkomik.my.id/manhwa/buku-harian-penaklukan-wanita-prajurit-yang-regresi",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6313_6675c13e9de9f_xv1.webp"
-  },
-  {
-    "title": "Aristokrat Telepati",
-    "url": "https://mirrorinkomik.my.id/manga/aristokrat-telepati",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13165_69da822d20046.webp"
-  },
-  {
-    "title": "Budak Penampungan",
-    "url": "https://mirrorinkomik.my.id/manhwa/budak-penampungan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10628_68526c17aaa90.webp"
-  },
-  {
-    "title": "Tidak Pernah Sekadar Teman",
-    "url": "https://mirrorinkomik.my.id/manhwa/tidak-pernah-sekadar-teman",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14249_6a466730611b6.webp"
-  },
-  {
-    "title": "Laporan Kinerja (Seks)",
-    "url": "https://mirrorinkomik.my.id/manhwa/laporan-kinerja-seks",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12142_69188ca53a351.webp"
-  },
-  {
-    "title": "Menghipnotis Satpam",
-    "url": "https://mirrorinkomik.my.id/manhwa/menghipnotis-satpam",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9483_67faf7af3a379.webp"
+    "title": "Mobi Dick",
+    "url": "https://mirrorinkomik.my.id/manhwa/mobi-dick",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6063_6675c13e4d670.webp"
   },
   {
     "title": "Kelas 3 Kelas 5",
@@ -870,24 +1335,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4305_6675c13c1604f.webp"
   },
   {
-    "title": "Permen Pahit",
-    "url": "https://mirrorinkomik.my.id/manhwa/permen-pahit",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14264_6a48cf25aa5eb.webp"
-  },
-  {
-    "title": "Mata Birumu",
-    "url": "https://mirrorinkomik.my.id/manhwa/mata-birumu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13437_69f1e7e0bf380.webp"
-  },
-  {
     "title": "Ikatan yang Menyatukan Kita",
     "url": "https://mirrorinkomik.my.id/manhwa/ikatan-yang-menyatukan-kita",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13127_69d786c58eb76.webp"
-  },
-  {
-    "title": "Teman-teman Kuliahku yang Cabul",
-    "url": "https://mirrorinkomik.my.id/manhwa/teman-teman-kuliahku-yang-cabul",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11484_68af6446a611d.webp"
   },
   {
     "title": "Setengah Sempurna",
@@ -895,29 +1345,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4761_6675c13c9e21c.webp"
   },
   {
-    "title": "Bos Menjadi Terangsang",
-    "url": "https://mirrorinkomik.my.id/manhwa/bos-menjadi-terangsang",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13935_6a1f7c8a989ee.webp"
-  },
-  {
-    "title": "Tingkat Hati",
-    "url": "https://mirrorinkomik.my.id/manhwa/tingkat-hati",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14203_6a422890afd45.webp"
-  },
-  {
-    "title": "Istri Pelarian",
-    "url": "https://mirrorinkomik.my.id/manhwa/istri-pelarian",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8043_675b6bd811906.webp"
-  },
-  {
-    "title": "Aku Menjalani Pernikahan yang Diatur dengan Orang yang Kucintai Secara Sepihak",
-    "url": "https://mirrorinkomik.my.id/manhwa/aku-menjalani-pernikahan-yang-diatur-dengan-orang-yang-kucintai-secara-sepihak",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14516_6a6d3cad3b122.webp"
-  },
-  {
-    "title": "Hukum Talion",
-    "url": "https://mirrorinkomik.my.id/manhwa/hukum-talion",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14439_6a5ec29acfd96.webp"
+    "title": "Klimaks Di Variety Show 19+",
+    "url": "https://mirrorinkomik.my.id/manhwa/klimaks-di-variety-show-19",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10016_6827cc02abcaa.webp"
   },
   {
     "title": "Aku Menarik Kembali Ucapanku Yang Menyebut Mantan Pacarku Membosankan",
@@ -928,41 +1358,6 @@
     "title": "Menguncii",
     "url": "https://mirrorinkomik.my.id/manhwa/menguncii",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13813_6a0df92206a49.webp"
-  },
-  {
-    "title": "Lagu Musim Panas",
-    "url": "https://mirrorinkomik.my.id/manhwa/lagu-musim-panas",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11475_68af5c689c8a2.webp"
-  },
-  {
-    "title": "Hubungan Rahasia (Chico)",
-    "url": "https://mirrorinkomik.my.id/manhwa/hubungan-rahasia-chico",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14476_6a65810981c90.webp"
-  },
-  {
-    "title": "Sangat Besar",
-    "url": "https://mirrorinkomik.my.id/manhwa/sangat-besar",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14268_6a495bb333a19.webp"
-  },
-  {
-    "title": "Tidak Ada Anjing Militer yang Buruk di Dunia Ini",
-    "url": "https://mirrorinkomik.my.id/manhwa/tidak-ada-anjing-militer-yang-buruk-di-dunia-ini",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13241_69dff80a89e26.webp"
-  },
-  {
-    "title": "Chica Traviesa",
-    "url": "https://mirrorinkomik.my.id/manhwa/chica-traviesa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12733_6955f13c7c28a.webp"
-  },
-  {
-    "title": "Komandan Ksatria Isekai Dragondick",
-    "url": "https://mirrorinkomik.my.id/manhwa/komandan-ksatria-isekai-dragondick",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7447_6704487adf8fb.webp"
-  },
-  {
-    "title": "Pria yang Terhormat",
-    "url": "https://mirrorinkomik.my.id/manhwa/pria-yang-terhormat",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14270_6a495cd91e368_xv1.webp"
   },
   {
     "title": "Tubuh Tesis Profesor",
@@ -978,11 +1373,6 @@
     "title": "Sangat Populer! Paket Heat Cycle",
     "url": "https://mirrorinkomik.my.id/manhwa/sangat-populer-paket-heat-cycle",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14506_6a6abfb366928.webp"
-  },
-  {
-    "title": "Bayi yang Tidak Disengaja",
-    "url": "https://mirrorinkomik.my.id/manhwa/bayi-yang-tidak-disengaja",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12705_6954afe7b627c.webp"
   },
   {
     "title": "Menyewa Seorang Penyihir Untuk Menghamilinya Secara Sembrono",
@@ -1003,11 +1393,6 @@
     "title": "Pelajaran dari Seorang Pria Tua",
     "url": "https://mirrorinkomik.my.id/manga/pelajaran-dari-seorang-pria-tua",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14502_6a6abd4ee835b.webp"
-  },
-  {
-    "title": "Sentuh Tubuhmu",
-    "url": "https://mirrorinkomik.my.id/manhwa/sentuh-tubuhmu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13409_69ee54979770b.webp"
   },
   {
     "title": "Pasangan Seks Santai Saya Terus-Menerus Ingin Mengubah Hubungan Ini Menjadi Lebih Dari Sekadar Hubungan Santai",
@@ -1055,21 +1440,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13648_6a007966927eb.webp"
   },
   {
-    "title": "Situasi yang Sulit",
-    "url": "https://mirrorinkomik.my.id/manhwa/situasi-yang-sulit",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14003_6a28a8c56ea90.webp"
-  },
-  {
-    "title": "Ajumma Sebelah Rumah Memiliki Kelemahan Saya",
-    "url": "https://mirrorinkomik.my.id/manhwa/ajumma-sebelah-rumah-memiliki-kelemahan-saya",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14004_6a28a95320fc2.webp"
-  },
-  {
-    "title": "Jadilah Orang Jahat",
-    "url": "https://mirrorinkomik.my.id/manhwa/jadilah-orang-jahat",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13057_69d5be12410a3.webp"
-  },
-  {
     "title": "Kelangsungan Hidup Mudah di Dunia Lain ~Dengan Keahlian Bertahan Hidupku yang Kuat, Aku Akan Tinggal di Pulau Tak Berpenghuni Bersama Empat Gadis Cantik~",
     "url": "https://mirrorinkomik.my.id/manga/kelangsungan-hidup-mudah-di-dunia-lain-dengan-keahlian-bertahan-hidupku-yang-kuat-aku-akan-tinggal-di-pulau-tak-berpenghuni-bersama-empat-gadis-cantik",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4738_6675c13c97b8b_xv1.webp"
@@ -1090,11 +1460,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12839_6961326ad5702.webp"
   },
   {
-    "title": "Gadis dengan Kekuatan Ajaib",
-    "url": "https://mirrorinkomik.my.id/manhwa/gadis-dengan-kekuatan-ajaib",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14245_6a45e76587c3f.webp"
-  },
-  {
     "title": "Itu Bohong, Tapi Tak Apa",
     "url": "https://mirrorinkomik.my.id/manhwa/itu-bohong-tapi-tak-apa",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14243_6a45e37273d39.webp"
@@ -1105,19 +1470,9 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14063_6a2ed1243e955.webp"
   },
   {
-    "title": "Saya Menjadi Manajer Keamanan Apartemen",
-    "url": "https://mirrorinkomik.my.id/manhwa/saya-menjadi-manajer-keamanan-apartemen",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11386_68a790cfe78c3.webp"
-  },
-  {
     "title": "Wanita yang Terobsesi dengan Seragam",
     "url": "https://mirrorinkomik.my.id/manhwa/wanita-yang-terobsesi-dengan-seragam",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14060_6a2e852847145.webp"
-  },
-  {
-    "title": "Hutan Pohon Lemon",
-    "url": "https://mirrorinkomik.my.id/manhwa/hutan-pohon-lemon",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13084_69d65d2a3c21e.webp"
   },
   {
     "title": "Situasi Saat Sang Ksatria Memutuskan Ikatannya",
@@ -1130,11 +1485,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7668_6723739b5bfb1_xv1.webp"
   },
   {
-    "title": "Penyihir Penyembuhan Tidak dapat Bertarung Sendirian",
-    "url": "https://mirrorinkomik.my.id/manga/penyihir-penyembuhan-tidak-dapat-bertarung-sendirian",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/1/120_65053040ea455.webp"
-  },
-  {
     "title": "Gadis Terlarang",
     "url": "https://mirrorinkomik.my.id/manga/gadis-terlarang",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12184_691d2af12b31c.webp"
@@ -1143,16 +1493,6 @@
     "title": "Jadi, Kita Akan Menikah",
     "url": "https://mirrorinkomik.my.id/manhua/jadi-kita-akan-menikah",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14373_6a584ec1d2be5.webp"
-  },
-  {
-    "title": "Bimbingan Belajar yang Mencurigakan",
-    "url": "https://mirrorinkomik.my.id/manhwa/bimbingan-belajar-yang-mencurigakan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14433_6a5ba8c3b9418.webp"
-  },
-  {
-    "title": "Seorang Pria yang Terkait Konten NSFW Baru Saja Bergabung dengan Perusahaan",
-    "url": "https://mirrorinkomik.my.id/manhwa/seorang-pria-yang-terkait-konten-nsfw-baru-saja-bergabung-dengan-perusahaan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14370_6a57dfcfc9587.webp"
   },
   {
     "title": "Uang Ikut Bermain",
@@ -1178,11 +1518,6 @@
     "title": "Bintang Rock Tidak Pernah Mati",
     "url": "https://mirrorinkomik.my.id/manhwa/bintang-rock-tidak-pernah-mati",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13552_69fd48e6d2294.webp"
-  },
-  {
-    "title": "Menahan Yian",
-    "url": "https://mirrorinkomik.my.id/manhua/menahan-yian",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8992_67b3640e43ff3.webp"
   },
   {
     "title": "Kue Ceri",
@@ -1215,11 +1550,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12872_6964b3f4a8126.webp"
   },
   {
-    "title": "Lihatlah Manajer Saya",
-    "url": "https://mirrorinkomik.my.id/manhwa/lihatlah-manajer-saya",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13513_69f9dfa026639.webp"
-  },
-  {
     "title": "Pergi ke Workshop Bersama Bosku",
     "url": "https://mirrorinkomik.my.id/manhwa/pergi-ke-workshop-bersama-bosku",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11951_68ffa1c54f83c.webp"
@@ -1238,11 +1568,6 @@
     "title": "Jadilah Dolsoe-ku",
     "url": "https://mirrorinkomik.my.id/manhwa/jadilah-dolsoe-ku",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14452_6a618b566ccb2.webp"
-  },
-  {
-    "title": "Pendeta Wanita Dahalen",
-    "url": "https://mirrorinkomik.my.id/manhwa/pendeta-wanita-dahalen",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14095_6a32f7625b17e.webp"
   },
   {
     "title": "Si Black Panther di Sebelah Rumah",
@@ -1295,11 +1620,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14437_6a5d991fbe16a.webp"
   },
   {
-    "title": "Hero-Sama, Kuharap Kau Bersenang-senang Semalam",
-    "url": "https://mirrorinkomik.my.id/manga/hero-sama-kuharap-kau-bersenang-senang-semalam",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13399_69ee4aa7b2180.webp"
-  },
-  {
     "title": "Godaan Tetangga: Rahasia Bibi White Rose",
     "url": "https://mirrorinkomik.my.id/manga/godaan-tetangga-rahasia-bibi-white-rose",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13919_6a1e451d4104e.webp"
@@ -1348,11 +1668,6 @@
     "title": "Gagak Sang Ular Beracun",
     "url": "https://mirrorinkomik.my.id/manhwa/gagak-sang-ular-beracun",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14392_6a5a06bbb8600.webp"
-  },
-  {
-    "title": "Saudara-saudara yang Bernasib Malang",
-    "url": "https://mirrorinkomik.my.id/manhwa/saudara-saudara-yang-bernasib-malang",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14390_6a5a0335792e3.webp"
   },
   {
     "title": "Perbedaan Waktu Pernikahan",
@@ -1600,16 +1915,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14309_6a4ec9bc7ad2d.webp"
   },
   {
-    "title": "Pasangan Itu Menyembunyikan Selera Mereka",
-    "url": "https://mirrorinkomik.my.id/manhwa/pasangan-itu-menyembunyikan-selera-mereka",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13757_6a0ab16296e9c.webp"
-  },
-  {
-    "title": "Cinta Seekor Naga",
-    "url": "https://mirrorinkomik.my.id/manhwa/cinta-seekor-naga",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14337_6a5317eb6add2.webp"
-  },
-  {
     "title": "One Day I Became A Gwang-Gong",
     "url": "https://mirrorinkomik.my.id/manhwa/one-day-i-became-a-gwang-gong",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12936_696bae7a84f9e.webp"
@@ -1745,6 +2050,21 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13805_6a0d98d9ad2a7.webp"
   },
   {
+    "title": "Omega Milik Hyung",
+    "url": "https://mirrorinkomik.my.id/manhwa/omega-milik-hyung",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13801_6a0d92607210e.webp"
+  },
+  {
+    "title": "Pilihan Dari Pilihan",
+    "url": "https://mirrorinkomik.my.id/manhwa/pilihan-dari-pilihan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12219_692201455d73d_xv1.webp"
+  },
+  {
+    "title": "Misi : Selamatkan Sang Pemburu",
+    "url": "https://mirrorinkomik.my.id/manhwa/misi-selamatkan-sang-pemburu",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9101_67cea5b9db3cf.webp"
+  },
+  {
     "title": "Masalah Sayang",
     "url": "https://mirrorinkomik.my.id/manhwa/masalah-sayang",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8851_67aa54bcbac20.webp"
@@ -1818,6 +2138,31 @@
     "title": "Panduan Gila",
     "url": "https://mirrorinkomik.my.id/manhwa/panduan-gila",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13507_69f9daf857a12.webp"
+  },
+  {
+    "title": "Asam atau Pahit",
+    "url": "https://mirrorinkomik.my.id/manhwa/asam-atau-pahit",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12750_69574468b90af.webp"
+  },
+  {
+    "title": "Anjing-anjing Sisyphus",
+    "url": "https://mirrorinkomik.my.id/manhwa/anjing-anjing-sisyphus",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8942_67b07010586f4.webp"
+  },
+  {
+    "title": "Bertahan Sebagai Pemain",
+    "url": "https://mirrorinkomik.my.id/manhwa/bertahan-sebagai-pemain",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7324_66fc6565b09f6.webp"
+  },
+  {
+    "title": "Jangan Campurkan Bisnis dengan Kesenangan!",
+    "url": "https://mirrorinkomik.my.id/manhwa/jangan-campurkan-bisnis-dengan-kesenangan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5301_6675c13d525ef.webp"
+  },
+  {
+    "title": "Garis Akhir",
+    "url": "https://mirrorinkomik.my.id/manhwa/garis-akhir",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4287_6675c13c109db.webp"
   },
   {
     "title": "Bocah Yang Menyebalkan",
@@ -2050,11 +2395,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14200_6a4225c2865d6.webp"
   },
   {
-    "title": "Bisakah Saya Membakar Bus Pendek Itu?",
-    "url": "https://mirrorinkomik.my.id/manhwa/bisakah-saya-membakar-bus-pendek-itu",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13052_69d5b3b3b3526.webp"
-  },
-  {
     "title": "Cara Anjing Petarung Merayu",
     "url": "https://mirrorinkomik.my.id/manhwa/cara-anjing-petarung-merayu",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13055_69d5b54c08b84.webp"
@@ -2078,21 +2418,6 @@
     "title": "Terapi Kucing",
     "url": "https://mirrorinkomik.my.id/manhua/terapi-kucing",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12104_6912e28bca47e.webp"
-  },
-  {
-    "title": "Mata Badai",
-    "url": "https://mirrorinkomik.my.id/manhwa/mata-badai",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9762_68195bfe58094.webp"
-  },
-  {
-    "title": "Tempat Tidur Delapan Belas",
-    "url": "https://mirrorinkomik.my.id/manhwa/tempat-tidur-delapan-belas",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9413_67e402b132643.webp"
-  },
-  {
-    "title": "Minyak Di Atas Kanvas",
-    "url": "https://mirrorinkomik.my.id/manhwa/minyak-di-atas-kanvas",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8798_67a8d7b811ec2.webp"
   },
   {
     "title": "Memimpikan Dokkaebi",
@@ -2245,11 +2570,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10681_685926ff7a6c8.webp"
   },
   {
-    "title": "Cium Aku Jika Kamu Bisa",
-    "url": "https://mirrorinkomik.my.id/manhwa/cium-aku-jika-kamu-bisa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8849_67aa4d65e609b.webp"
-  },
-  {
     "title": "Bunga Malam Putih",
     "url": "https://mirrorinkomik.my.id/manhwa/bunga-malam-putih",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12408_69301ee433e70.webp"
@@ -2323,11 +2643,6 @@
     "title": "Kode Nama Anastasia Xv1",
     "url": "https://mirrorinkomik.my.id/manhwa/kode-nama-anastasia-xv1",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5532_6675c13d9c546.webp"
-  },
-  {
-    "title": "Ruang untuk Pembaharuan",
-    "url": "https://mirrorinkomik.my.id/manhwa/ruang-untuk-pembaharuan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10246_6839e4d5d6c89.webp"
   },
   {
     "title": "Kerja Buruk",
@@ -2443,11 +2758,6 @@
     "title": "Bersembunyi di Bawah Tempat Tidur Anak Perempuan Saya Saat Berhubungan Seks",
     "url": "https://mirrorinkomik.my.id/manga/bersembunyi-di-bawah-tempat-tidur-anak-perempuan-saya-saat-berhubungan-seks",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/15/14182_6a3bf86a2ff7c.webp"
-  },
-  {
-    "title": "Posisi Tubuh",
-    "url": "https://mirrorinkomik.my.id/manhwa/posisi-tubuh",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12078_69100e4c957a0.webp"
   },
   {
     "title": "Si Keren Jago Sepak Bola",
@@ -3120,11 +3430,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11990_6906e9e96c038_xv1.webp"
   },
   {
-    "title": "Ero: Sang Putri Tunduk",
-    "url": "https://mirrorinkomik.my.id/manhwa/ero-sang-putri-tunduk",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12792_695b67cd2ff16.webp"
-  },
-  {
     "title": "Mantan Gadis Panggilan Teman Sekelas, Saat Saya Menelepon Layanan",
     "url": "https://mirrorinkomik.my.id/manga/mantan-gadis-panggilan-teman-sekelas-saat-saya-menelepon-layanan",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12713_6954e81a1bd95_xv1.webp"
@@ -3573,11 +3878,6 @@
     "title": "Perjalanan di Kursi Belakang Bersama Ibu Tiri Saya",
     "url": "https://mirrorinkomik.my.id/manhwa/perjalanan-di-kursi-belakang-bersama-ibu-tiri-saya",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13179_69dc3ba6e4e96.webp"
-  },
-  {
-    "title": "Permainan Pasangan Menikah",
-    "url": "https://mirrorinkomik.my.id/manhwa/permainan-pasangan-menikah",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10072_682aaaf0b87c5.webp"
   },
   {
     "title": "Keinginan Kilat",
@@ -4790,11 +5090,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7353_66fcd7fabe5ce.webp"
   },
   {
-    "title": "Ji Heejin dan Ji Hyunwoo Bertemu Lagi",
-    "url": "https://mirrorinkomik.my.id/manhwa/ji-heejin-dan-ji-hyunwoo-bertemu-lagi",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11982_690654886ef0d.webp"
-  },
-  {
     "title": "Hapus",
     "url": "https://mirrorinkomik.my.id/manhwa/hapus",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13570_69fe2f2fc6d54.webp"
@@ -4865,8 +5160,8 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5054_6675c13d01eda.webp"
   },
   {
-    "title": "Pria dari Semua Orang",
-    "url": "https://mirrorinkomik.my.id/manhwa/pria-dari-semua-orang",
+    "title": "Pria dari Semua Orang Xv1",
+    "url": "https://mirrorinkomik.my.id/manhwa/pria-dari-semua-orang-xv1",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10977_6878d3e510508.webp"
   },
   {
@@ -5200,11 +5495,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13427_69f1a045dc0a0.webp"
   },
   {
-    "title": "Bagaimana Pindah ke Fasilitas yang Dulunya Khusus Perempuan Mengubah Hidupku Menjadi Harem Sejati",
-    "url": "https://mirrorinkomik.my.id/manga/bagaimana-pindah-ke-fasilitas-yang-dulunya-khusus-perempuan-mengubah-hidupku-menjadi-harem-sejati",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13426_69f19ff48ec50.webp"
-  },
-  {
     "title": "Proyek Mendidik Pria Pemalu dari Seorang Gyaru yang Tegas",
     "url": "https://mirrorinkomik.my.id/manga/proyek-mendidik-pria-pemalu-dari-seorang-gyaru-yang-tegas",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13424_69f19e954bfdb.webp"
@@ -5495,11 +5785,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12819_695db888c4617.webp"
   },
   {
-    "title": "Klub Membaca Dewasa",
-    "url": "https://mirrorinkomik.my.id/manhwa/klub-membaca-dewasa",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8328_6789c72190d37.webp"
-  },
-  {
     "title": "Manajer Pahlawan",
     "url": "https://mirrorinkomik.my.id/manhwa/manajer-pahlawan",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13164_69da784b032ce.webp"
@@ -5645,6 +5930,11 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12254_6924ac3810584.webp"
   },
   {
+    "title": "Bocil Yang Mirip Aku Xv2",
+    "url": "https://mirrorinkomik.my.id/manhwa/bocil-yang-mirip-aku-xv2",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6594_6675c13f05db0.webp"
+  },
+  {
     "title": "Layanan Khusus Perusahaan Pindahan",
     "url": "https://mirrorinkomik.my.id/manhwa/layanan-khusus-perusahaan-pindahan",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/14/13009_69c2d1785312e.webp"
@@ -5760,11 +6050,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11822_68eb37522dd08.webp"
   },
   {
-    "title": "Memanjakan Diri Ala Jepang",
-    "url": "https://mirrorinkomik.my.id/manga/memanjakan-diri-ala-jepang",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12911_6969aebb73977.webp"
-  },
-  {
     "title": "Terjebak Dengan Bosku Di Gudang",
     "url": "https://mirrorinkomik.my.id/manhwa/terjebak-dengan-bosku-di-gudang",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12237_6923ace704a11.webp"
@@ -5773,11 +6058,6 @@
     "title": "Lantunan Lagu Nama Merah",
     "url": "https://mirrorinkomik.my.id/manhwa/lantunan-lagu-nama-merah",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11998_6907295250c88.webp"
-  },
-  {
-    "title": "Harga Sebuah Naluri",
-    "url": "https://mirrorinkomik.my.id/manhwa/harga-sebuah-naluri",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12631_695188ceb9106.webp"
   },
   {
     "title": "Mati atau Jatuh Cinta",
@@ -5865,11 +6145,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12862_6963bff55dc8f.webp"
   },
   {
-    "title": "Menangislah, Atau Lebih Baik Lagi, Mohon",
-    "url": "https://mirrorinkomik.my.id/manhwa/menangislah-atau-lebih-baik-lagi-mohon",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5566_6675c13da7f4d.webp"
-  },
-  {
     "title": "Jumak Yeon",
     "url": "https://mirrorinkomik.my.id/manhwa/jumak-yeon",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11401_68a82d53cbd9c.webp"
@@ -5945,6 +6220,21 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12710_6954d45516264.webp"
   },
   {
+    "title": "Duke Utara Sangatlah Imut",
+    "url": "https://mirrorinkomik.my.id/manhwa/duke-utara-sangatlah-imut",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12615_694b39535bb84.webp"
+  },
+  {
+    "title": "Seberapa Jauh Anda Bisa Melangkah?",
+    "url": "https://mirrorinkomik.my.id/manhwa/seberapa-jauh-anda-bisa-melangkah",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9716_6816c8de5486b.webp"
+  },
+  {
+    "title": "Cinta Guru Viola & Muridnya Xv1",
+    "url": "https://mirrorinkomik.my.id/manhwa/cinta-guru-viola-muridnya-xv1",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5233_6675c13d3c1ae.webp"
+  },
+  {
     "title": "Doom: The Punishment of a Killer Cop",
     "url": "https://mirrorinkomik.my.id/manga/doom-the-punishment-of-a-killer-cop",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12110_6913c054e85b1.webp"
@@ -6018,6 +6308,16 @@
     "title": "Penyesalan yang Terlambat",
     "url": "https://mirrorinkomik.my.id/manhwa/penyesalan-yang-terlambat",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11717_68d64e2505c08.webp"
+  },
+  {
+    "title": "Panduan Teman Masa Kecilku",
+    "url": "https://mirrorinkomik.my.id/manhwa/panduan-teman-masa-kecilku",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11341_68a0cd2c6a384.webp"
+  },
+  {
+    "title": "Cinta Perhatian",
+    "url": "https://mirrorinkomik.my.id/manhwa/cinta-perhatian",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10059_682a35a449964.webp"
   },
   {
     "title": "Ilusi Yang Buruk",
@@ -6163,11 +6463,6 @@
     "title": "XX Kotor",
     "url": "https://mirrorinkomik.my.id/manhwa/xx-kotor",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4653_6675c13c7e04d.webp"
-  },
-  {
-    "title": "Benih Mati",
-    "url": "https://mirrorinkomik.my.id/manhwa/benih-mati",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10937_687458df38dda.webp"
   },
   {
     "title": "Ryuha 2020",
@@ -6325,21 +6620,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12690_695362e90d4b5.webp"
   },
   {
-    "title": "Rumah Mewah Orca",
-    "url": "https://mirrorinkomik.my.id/manhwa/rumah-mewah-orca",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11836_68ed4dc6a6948.webp"
-  },
-  {
-    "title": "Terikat Darah",
-    "url": "https://mirrorinkomik.my.id/manhwa/terikat-darah",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8828_67a97a3dba2b5.webp"
-  },
-  {
-    "title": "Apakah Kamu Masih Menyukaiku?",
-    "url": "https://mirrorinkomik.my.id/manhwa/apakah-kamu-masih-menyukaiku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7396_66fd71789f03d.webp"
-  },
-  {
     "title": "Raja Es, Budak Api",
     "url": "https://mirrorinkomik.my.id/manga/raja-es-budak-api",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12795_695b701596f38.webp"
@@ -6393,6 +6673,11 @@
     "title": "Mumpung Kamu Lengah",
     "url": "https://mirrorinkomik.my.id/manhwa/mumpung-kamu-lengah",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9836_681cb89273026.webp"
+  },
+  {
+    "title": "Pengantin Naga",
+    "url": "https://mirrorinkomik.my.id/manhwa/pengantin-naga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8994_67b37146a4650.webp"
   },
   {
     "title": "Mimpi Bunga Api",
@@ -6470,19 +6755,19 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12868_696400c866f5e.webp"
   },
   {
+    "title": "Surga",
+    "url": "https://mirrorinkomik.my.id/manhwa/surga",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10770_6862e49cd8d0c.webp"
+  },
+  {
+    "title": "Aku Bereinkarnasi Sebagai Naga Jahat Kecil Sang Pangeran",
+    "url": "https://mirrorinkomik.my.id/manhua/aku-bereinkarnasi-sebagai-naga-jahat-kecil-sang-pangeran",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10645_6853fb8019a10.webp"
+  },
+  {
     "title": "Jebakan Tikus",
     "url": "https://mirrorinkomik.my.id/manhwa/jebakan-tikus",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11910_68f9c310568c4.webp"
-  },
-  {
-    "title": "Peternakan Tuan A",
-    "url": "https://mirrorinkomik.my.id/manhwa/peternakan-tuan-a",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10723_6861ec3053899.webp"
-  },
-  {
-    "title": "Menciptakan Akhir yang Tersembunyi",
-    "url": "https://mirrorinkomik.my.id/manhwa/menciptakan-akhir-yang-tersembunyi",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10672_685727b006c2f.webp"
   },
   {
     "title": "Pasangan Tak Kasat Mata",
@@ -6770,6 +7055,11 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12777_695aacb867c6f_xv1.webp"
   },
   {
+    "title": "Legenda Duyung",
+    "url": "https://mirrorinkomik.my.id/manhwa/legenda-duyung",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12569_694a3da1acfa7.webp"
+  },
+  {
     "title": "Ini Bukan Cara Saya Melamar",
     "url": "https://mirrorinkomik.my.id/manhwa/ini-bukan-cara-saya-melamar",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11775_68dff36f8e6bb.webp"
@@ -6778,21 +7068,6 @@
     "title": "Kulihat Fajar di Balik Kabut",
     "url": "https://mirrorinkomik.my.id/manga/kulihat-fajar-di-balik-kabut",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12673_6952e0c368f06.webp"
-  },
-  {
-    "title": "Pengemas Hati",
-    "url": "https://mirrorinkomik.my.id/manhwa/pengemas-hati",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11754_68db2a97ee06c.webp"
-  },
-  {
-    "title": "Tulang dan Kelopak",
-    "url": "https://mirrorinkomik.my.id/manhwa/tulang-dan-kelopak",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9223_67d5df2739bcf.webp"
-  },
-  {
-    "title": "Poplar Putih Kecil",
-    "url": "https://mirrorinkomik.my.id/manhua/poplar-putih-kecil",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6921_6675c13f684d7.webp"
   },
   {
     "title": "Seekor Hewan Liar Yang Menemukan Takdirnya",
@@ -6845,6 +7120,16 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11185_6890a10eb7ba2.webp"
   },
   {
+    "title": "Skandal Pisang",
+    "url": "https://mirrorinkomik.my.id/manhwa/skandal-pisang",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11182_68908d967bee8.webp"
+  },
+  {
+    "title": "Teman Satu Malam",
+    "url": "https://mirrorinkomik.my.id/manhwa/teman-satu-malam",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4964_6675c13cda3bc.webp"
+  },
+  {
     "title": "Untuk Sayangku",
     "url": "https://mirrorinkomik.my.id/manhwa/untuk-sayangku",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12574_694a712cbc2fb.webp"
@@ -6858,11 +7143,6 @@
     "title": "Naga dan Macan yang Jatuh Cinta",
     "url": "https://mirrorinkomik.my.id/manga/naga-dan-macan-yang-jatuh-cinta",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12821_695db99398c11.webp"
-  },
-  {
-    "title": "Pengantin Baru",
-    "url": "https://mirrorinkomik.my.id/manhwa/pengantin-baru",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12541_6946db1d445e2.webp"
   },
   {
     "title": "Cara Kabur Dari Lingkaran Setan",
@@ -7143,6 +7423,16 @@
     "title": "Pelajaran untuk Saudara Laki-Lakiku yang Cabul",
     "url": "https://mirrorinkomik.my.id/manhwa/pelajaran-untuk-saudara-laki-lakiku-yang-cabul",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12668_6952de4432df0.webp"
+  },
+  {
+    "title": "Terjebak Di Kegelapan",
+    "url": "https://mirrorinkomik.my.id/manhwa/terjebak-di-kegelapan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12595_694ae6a6508ed.webp"
+  },
+  {
+    "title": "Iclik Di Hutan",
+    "url": "https://mirrorinkomik.my.id/manga/iclik-di-hutan",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10861_686ad9391aa28.webp"
   },
   {
     "title": "Rasa yang Familiar",
@@ -7448,11 +7738,6 @@
     "title": "Genrenya Terlalu Berbeda?",
     "url": "https://mirrorinkomik.my.id/manhwa/genrenya-terlalu-berbeda",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12122_691508f6ddc85.webp"
-  },
-  {
-    "title": "Pahlawan Menyelamatkan Dengan Tubuh Mereka",
-    "url": "https://mirrorinkomik.my.id/manhwa/pahlawan-menyelamatkan-dengan-tubuh-mereka",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10815_68687ee7cf2a0.webp"
   },
   {
     "title": "K Untuk Kotor",
@@ -8070,8 +8355,8 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9385_67e1b77f856f6.webp"
   },
   {
-    "title": "Selera Anda Sedikit Manis",
-    "url": "https://mirrorinkomik.my.id/manhua/selera-anda-sedikit-manis",
+    "title": "Selera Anda Sedikit Manis Xv1",
+    "url": "https://mirrorinkomik.my.id/manhua/selera-anda-sedikit-manis-xv1",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/13/12245_6923e25e83bf5.webp"
   },
   {
@@ -8568,6 +8853,11 @@
     "title": "Kasihilah Sesamamu Seperti Dirimu Sendiri",
     "url": "https://mirrorinkomik.my.id/manhwa/kasihilah-sesamamu-seperti-dirimu-sendiri",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8689_67a0ca86214b4.webp"
+  },
+  {
+    "title": "Pembawa Acara Wanita White Moonlight Selalu Ingin Memonopoli Saya",
+    "url": "https://mirrorinkomik.my.id/manhua/pembawa-acara-wanita-white-moonlight-selalu-ingin-memonopoli-saya",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/8/7544_670ed8294a300.webp"
   },
   {
     "title": "Kematian Adalah Milikku",
@@ -9095,6 +9385,11 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11831_68eba13bc2b88.webp"
   },
   {
+    "title": "Pangeran Kopi dan Putri Tidur",
+    "url": "https://mirrorinkomik.my.id/manga/pangeran-kopi-dan-putri-tidur",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11607_68be2cf9de5e1.webp"
+  },
+  {
     "title": "Noir Bulan Juni",
     "url": "https://mirrorinkomik.my.id/manhwa/noir-bulan-juni",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10751_686277d5e20bb.webp"
@@ -9325,11 +9620,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9761_68195b5752d1f.webp"
   },
   {
-    "title": "Hanya Kita Berdua Ayo Kita Makan",
-    "url": "https://mirrorinkomik.my.id/manhwa/hanya-kita-berdua-ayo-kita-makan",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5750_6675c13de05da.webp"
-  },
-  {
     "title": "Demam",
     "url": "https://mirrorinkomik.my.id/manhwa/demam",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/6/5679_6675c13dc9959.webp"
@@ -9343,11 +9633,6 @@
     "title": "Mengacaukan Campuran",
     "url": "https://mirrorinkomik.my.id/manhwa/mengacaukan-campuran",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11497_68b1c15be3c3c.webp"
-  },
-  {
-    "title": "Di Rumah Anjing Xv1",
-    "url": "https://mirrorinkomik.my.id/manhwa/di-rumah-anjing-xv1",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6628_6675c13f10f44.webp"
   },
   {
     "title": "Sindroma KanoMama",
@@ -9620,6 +9905,11 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10918_6870c9be1df9f.webp"
   },
   {
+    "title": "Robotku Bandel",
+    "url": "https://mirrorinkomik.my.id/manhwa/robotku-bandel",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9913_682381dc7d527.webp"
+  },
+  {
     "title": "Alasan Mengapa Guru Tersebut Hamil Anak Tersebut Adalah Karena Manisnya Pendidikan Yang Diberikan Dan Masa Lalu",
     "url": "https://mirrorinkomik.my.id/manga/alasan-mengapa-guru-tersebut-hamil-anak-tersebut-adalah-karena-manisnya-pendidikan-yang-diberikan-dan-masa-lalu",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11344_68a0dbf8bd9fc.webp"
@@ -9628,26 +9918,6 @@
     "title": "Perpisahan",
     "url": "https://mirrorinkomik.my.id/manhwa/perpisahan",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10870_686b57d1531da.webp"
-  },
-  {
-    "title": "Seperti Violet",
-    "url": "https://mirrorinkomik.my.id/manhwa/seperti-violet",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/11/10532_684ba584ac536.webp"
-  },
-  {
-    "title": "Peristiwa Bernama Tsunami: Metode Berburu Paus Pembunuh",
-    "url": "https://mirrorinkomik.my.id/manhwa/peristiwa-bernama-tsunami-metode-berburu-paus-pembunuh",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8872_67ab6b75aea11.webp"
-  },
-  {
-    "title": "Padang Pasir Basah",
-    "url": "https://mirrorinkomik.my.id/manhwa/padang-pasir-basah",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8762_67a639bfda7c3.webp"
-  },
-  {
-    "title": "Sejarah Cinta Disengaja Tidak Tertulis",
-    "url": "https://mirrorinkomik.my.id/manhwa/sejarah-cinta-disengaja-tidak-tertulis",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/5/4643_6675c13c7ae2f.webp"
   },
   {
     "title": "BICARALAH Kotor Padaku!",
@@ -9748,11 +10018,6 @@
     "title": "Penjara Penghinaan",
     "url": "https://mirrorinkomik.my.id/manga/penjara-penghinaan",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/12/11773_68dfed843a86f.webp"
-  },
-  {
-    "title": "Penyihir Permata",
-    "url": "https://mirrorinkomik.my.id/manhwa/penyihir-permata",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9541_6800bbdf8adae.webp"
   },
   {
     "title": "Taklukkan Dunia❤ Dengan Satu Botol RAMUAN",
@@ -11418,6 +11683,11 @@
     "title": "Pangeran Yandereku!!",
     "url": "https://mirrorinkomik.my.id/manhua/pangeran-yandereku",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8652_67a065bd4ea9b.webp"
+  },
+  {
+    "title": "Sejarah Bunga Musim Semi Joseon",
+    "url": "https://mirrorinkomik.my.id/manhwa/sejarah-bunga-musim-semi-joseon",
+    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6995_6688bfab318a4.webp"
   },
   {
     "title": "Mati Melusin",
@@ -13100,11 +13370,6 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9374_67e1053cf3bd9.webp"
   },
   {
-    "title": "Monster di Kamar Ku",
-    "url": "https://mirrorinkomik.my.id/manhwa/monster-di-kamar-ku",
-    "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8755_67a6033f77a93.webp"
-  },
-  {
     "title": "Ular Berbisa",
     "url": "https://mirrorinkomik.my.id/manhwa/ular-berbisa",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/9/8634_67a004ab52dab.webp"
@@ -13350,8 +13615,8 @@
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/7/6608_6675c13f0a312.webp"
   },
   {
-    "title": "Kisah Naruto Tersembunyi di Balik Daun",
-    "url": "https://mirrorinkomik.my.id/manga/kisah-naruto-tersembunyi-di-balik-daun",
+    "title": "Kisah Naruto Tersembunyi di Balik Daun Xv1",
+    "url": "https://mirrorinkomik.my.id/manga/kisah-naruto-tersembunyi-di-balik-daun-xv1",
     "thumbnail_url": "https://cdngue.my.id/public/img/Sampul/220x300/10/9766_68198a18c85f5.webp"
   },
   {
